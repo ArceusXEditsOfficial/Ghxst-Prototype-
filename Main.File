@@ -1,0 +1,2099 @@
+--[[{{Ghxst Cleint V4 Prototype}}]]
+
+-- Instances:
+
+local GhxstUniversalHub = {
+	LogoHolderToggleMB = Instance.new("ScreenGui"),
+	LogoMainClient = Instance.new("Frame"),
+	TextLabel = Instance.new("TextLabel"),
+	ImageLabel = Instance.new("ImageLabel"),
+	ButtonFrame = Instance.new("Frame"),
+	UICorner = Instance.new("UICorner"),
+	ToggleButton = Instance.new("ImageButton"),
+	UICorner_2 = Instance.new("UICorner"),
+	GhxstUniversalHub = Instance.new("ScreenGui"),
+	MainFrame = Instance.new("Frame"),
+	Tab1Content = Instance.new("Frame"),
+	TextLabel_2 = Instance.new("TextLabel"),
+	TextLabel_3 = Instance.new("TextLabel"),
+	TextLabel_4 = Instance.new("TextLabel"),
+	TextLabel_5 = Instance.new("TextLabel"),
+	TextLabel_6 = Instance.new("TextLabel"),
+	TextLabel_7 = Instance.new("TextLabel"),
+	TextLabel_8 = Instance.new("TextLabel"),
+	Tab2Content = Instance.new("Frame"),
+	Buttons = Instance.new("Folder"),
+	BowDown = Instance.new("TextButton"),
+	UICorner_3 = Instance.new("UICorner"),
+	clickLeft = Instance.new("ImageLabel"),
+	Crawl = Instance.new("TextButton"),
+	UICorner_4 = Instance.new("UICorner"),
+	clickLeft_2 = Instance.new("ImageLabel"),
+	Dab = Instance.new("TextButton"),
+	UICorner_5 = Instance.new("UICorner"),
+	clickLeft_3 = Instance.new("ImageLabel"),
+	FloatingHead = Instance.new("TextButton"),
+	UICorner_6 = Instance.new("UICorner"),
+	clickLeft_4 = Instance.new("ImageLabel"),
+	Faint = Instance.new("TextButton"),
+	UICorner_7 = Instance.new("UICorner"),
+	clickLeft_5 = Instance.new("ImageLabel"),
+	Crouch = Instance.new("TextButton"),
+	UICorner_8 = Instance.new("UICorner"),
+	clickLeft_6 = Instance.new("ImageLabel"),
+	FloatingSit = Instance.new("TextButton"),
+	UICorner_9 = Instance.new("UICorner"),
+	clickLeft_7 = Instance.new("ImageLabel"),
+	BarrelRoll = Instance.new("TextButton"),
+	UICorner_10 = Instance.new("UICorner"),
+	clickLeft_8 = Instance.new("ImageLabel"),
+	HappyDance = Instance.new("TextButton"),
+	UICorner_11 = Instance.new("UICorner"),
+	clickLeft_9 = Instance.new("ImageLabel"),
+	Insane = Instance.new("TextButton"),
+	UICorner_12 = Instance.new("UICorner"),
+	clickLeft_10 = Instance.new("ImageLabel"),
+	Levitate = Instance.new("TextButton"),
+	UICorner_13 = Instance.new("UICorner"),
+	clickLeft_11 = Instance.new("ImageLabel"),
+	MoonDance = Instance.new("TextButton"),
+	UICorner_14 = Instance.new("UICorner"),
+	clickLeft_12 = Instance.new("ImageLabel"),
+	MovingDance = Instance.new("TextButton"),
+	UICorner_15 = Instance.new("UICorner"),
+	clickLeft_13 = Instance.new("ImageLabel"),
+	Slap = Instance.new("TextButton"),
+	UICorner_16 = Instance.new("UICorner"),
+	clickLeft_14 = Instance.new("ImageLabel"),
+	Punch = Instance.new("TextButton"),
+	UICorner_17 = Instance.new("UICorner"),
+	clickLeft_15 = Instance.new("ImageLabel"),
+	SpinAttack = Instance.new("TextButton"),
+	UICorner_18 = Instance.new("UICorner"),
+	clickLeft_16 = Instance.new("ImageLabel"),
+	SpinDance = Instance.new("TextButton"),
+	UICorner_19 = Instance.new("UICorner"),
+	clickLeft_17 = Instance.new("ImageLabel"),
+	Spin = Instance.new("TextButton"),
+	UICorner_20 = Instance.new("UICorner"),
+	clickLeft_18 = Instance.new("ImageLabel"),
+	Clone = Instance.new("TextButton"),
+	UICorner_21 = Instance.new("UICorner"),
+	clickLeft_19 = Instance.new("ImageLabel"),
+	Invisible = Instance.new("TextButton"),
+	UICorner_22 = Instance.new("UICorner"),
+	clickLeft_20 = Instance.new("ImageLabel"),
+	Sec = Instance.new("TextLabel"),
+	UICorner_23 = Instance.new("UICorner"),
+	Tab3Content = Instance.new("Frame"),
+	Sec_2 = Instance.new("TextLabel"),
+	UICorner_24 = Instance.new("UICorner"),
+	Buttons_2 = Instance.new("Folder"),
+	InfiniteYield = Instance.new("TextButton"),
+	UICorner_25 = Instance.new("UICorner"),
+	clickLeft_21 = Instance.new("ImageLabel"),
+	NamelessAdmin = Instance.new("TextButton"),
+	UICorner_26 = Instance.new("UICorner"),
+	clickLeft_22 = Instance.new("ImageLabel"),
+	FatesAdmin = Instance.new("TextButton"),
+	UICorner_27 = Instance.new("UICorner"),
+	clickLeft_23 = Instance.new("ImageLabel"),
+	Tab4Content = Instance.new("Frame"),
+	Sec_3 = Instance.new("TextLabel"),
+	UICorner_28 = Instance.new("UICorner"),
+	Buttons_3 = Instance.new("Folder"),
+	BackFrontFlip = Instance.new("TextButton"),
+	UICorner_29 = Instance.new("UICorner"),
+	clickLeft_24 = Instance.new("ImageLabel"),
+	CollisionsOff = Instance.new("TextButton"),
+	UICorner_30 = Instance.new("UICorner"),
+	clickLeft_25 = Instance.new("ImageLabel"),
+	Invisible_2 = Instance.new("TextButton"),
+	UICorner_31 = Instance.new("UICorner"),
+	clickLeft_26 = Instance.new("ImageLabel"),
+	Fly = Instance.new("TextButton"),
+	UICorner_32 = Instance.new("UICorner"),
+	clickLeft_27 = Instance.new("ImageLabel"),
+	Zombiewalk = Instance.new("TextButton"),
+	UICorner_33 = Instance.new("UICorner"),
+	clickLeft_28 = Instance.new("ImageLabel"),
+	AllEmotesGUI = Instance.new("TextButton"),
+	UICorner_34 = Instance.new("UICorner"),
+	clickLeft_29 = Instance.new("ImageLabel"),
+	SystemBrokenHub = Instance.new("TextButton"),
+	UICorner_35 = Instance.new("UICorner"),
+	clickLeft_30 = Instance.new("ImageLabel"),
+	TurnOnCollisions = Instance.new("TextButton"),
+	UICorner_36 = Instance.new("UICorner"),
+	clickLeft_31 = Instance.new("ImageLabel"),
+	Tab10Content = Instance.new("Frame"),
+	Sec_4 = Instance.new("TextLabel"),
+	TextLabel_9 = Instance.new("TextLabel"),
+	TabButtonsFrame = Instance.new("Frame"),
+	UICorner_37 = Instance.new("UICorner"),
+	Tab2Button = Instance.new("TextButton"),
+	UICorner_38 = Instance.new("UICorner"),
+	Tab3Button = Instance.new("TextButton"),
+	UICorner_39 = Instance.new("UICorner"),
+	Tab4Button = Instance.new("TextButton"),
+	UICorner_40 = Instance.new("UICorner"),
+	Tab10Button = Instance.new("TextButton"),
+	UICorner_41 = Instance.new("UICorner"),
+	Tab1Button = Instance.new("TextButton"),
+	UICorner_42 = Instance.new("UICorner"),
+	Tab5Button = Instance.new("TextButton"),
+	UICorner_43 = Instance.new("UICorner"),
+	Tab6Button = Instance.new("TextButton"),
+	UICorner_44 = Instance.new("UICorner"),
+	Tab7Button = Instance.new("TextButton"),
+	UICorner_45 = Instance.new("UICorner"),
+	Tab8Button = Instance.new("TextButton"),
+	UICorner_46 = Instance.new("UICorner"),
+	Tab9Button = Instance.new("TextButton"),
+	UICorner_47 = Instance.new("UICorner"),
+	Title = Instance.new("Frame"),
+	TextLabel_10 = Instance.new("TextLabel"),
+	UICorner_48 = Instance.new("UICorner"),
+	Centerer = Instance.new("Frame"),
+	Centerer_2 = Instance.new("Frame"),
+	Centerer_3 = Instance.new("Frame"),
+	Centerer_4 = Instance.new("Frame"),
+	Tab5Content = Instance.new("Frame"),
+	Sec_5 = Instance.new("TextLabel"),
+	Buttons_4 = Instance.new("Folder"),
+	VisualBetaV35 = Instance.new("TextButton"),
+	UICorner_49 = Instance.new("UICorner"),
+	clickLeft_32 = Instance.new("ImageLabel"),
+	FFJHubV3 = Instance.new("TextButton"),
+	UICorner_50 = Instance.new("UICorner"),
+	clickLeft_33 = Instance.new("ImageLabel"),
+	Tab6Content = Instance.new("Frame"),
+	Sec_6 = Instance.new("TextLabel"),
+	Buttons_5 = Instance.new("Folder"),
+	Vynixius20 = Instance.new("TextButton"),
+	UICorner_51 = Instance.new("UICorner"),
+	clickLeft_34 = Instance.new("ImageLabel"),
+	NooVstersHub = Instance.new("TextButton"),
+	UICorner_52 = Instance.new("UICorner"),
+	clickLeft_35 = Instance.new("ImageLabel"),
+	RollyHub = Instance.new("TextButton"),
+	UICorner_53 = Instance.new("UICorner"),
+	clickLeft_36 = Instance.new("ImageLabel"),
+	Tab7Content = Instance.new("Frame"),
+	Sec_7 = Instance.new("TextLabel"),
+	Buttons_6 = Instance.new("Folder"),
+	VapeV4 = Instance.new("TextButton"),
+	UICorner_54 = Instance.new("UICorner"),
+	clickLeft_37 = Instance.new("ImageLabel"),
+	RavenB1 = Instance.new("TextButton"),
+	UICorner_55 = Instance.new("UICorner"),
+	clickLeft_38 = Instance.new("ImageLabel"),
+	Tab8Content = Instance.new("Frame"),
+	Sec_8 = Instance.new("TextLabel"),
+	Buttons_7 = Instance.new("Folder"),
+	VapeV4_2 = Instance.new("TextButton"),
+	UICorner_56 = Instance.new("UICorner"),
+	clickLeft_39 = Instance.new("ImageLabel"),
+	MashHub = Instance.new("TextButton"),
+	UICorner_57 = Instance.new("UICorner"),
+	clickLeft_40 = Instance.new("ImageLabel"),
+	TBO = Instance.new("TextButton"),
+	UICorner_58 = Instance.new("UICorner"),
+	clickLeft_41 = Instance.new("ImageLabel"),
+	Tab9Content = Instance.new("Frame"),
+	Sec_9 = Instance.new("TextLabel"),
+	Buttons_8 = Instance.new("Folder"),
+	MinGamingHub = Instance.new("TextButton"),
+	UICorner_59 = Instance.new("UICorner"),
+	clickLeft_42 = Instance.new("ImageLabel"),
+	SpeedHubX = Instance.new("TextButton"),
+	UICorner_60 = Instance.new("UICorner"),
+	clickLeft_43 = Instance.new("ImageLabel"),
+	MatsuneHubV1 = Instance.new("TextButton"),
+	UICorner_61 = Instance.new("UICorner"),
+	clickLeft_44 = Instance.new("ImageLabel"),
+	RedzHub = Instance.new("TextButton"),
+	UICorner_62 = Instance.new("UICorner"),
+	clickLeft_45 = Instance.new("ImageLabel"),
+}
+
+--Properties:
+
+GhxstUniversalHub.LogoHolderToggleMB.Name = "Logo Holder, Toggle MB"
+GhxstUniversalHub.LogoHolderToggleMB.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+GhxstUniversalHub.LogoHolderToggleMB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+GhxstUniversalHub.LogoMainClient.Name = "Logo-Main Client"
+GhxstUniversalHub.LogoMainClient.Parent = GhxstUniversalHub.LogoHolderToggleMB
+GhxstUniversalHub.LogoMainClient.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.LogoMainClient.BackgroundTransparency = 1.000
+GhxstUniversalHub.LogoMainClient.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.LogoMainClient.BorderSizePixel = 0
+GhxstUniversalHub.LogoMainClient.Position = UDim2.new(0.757209897, 0, 0.848448694, 0)
+GhxstUniversalHub.LogoMainClient.Size = UDim2.new(0, 324, 0, 100)
+
+GhxstUniversalHub.TextLabel.Parent = GhxstUniversalHub.LogoMainClient
+GhxstUniversalHub.TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TextLabel.BackgroundTransparency = 1.000
+GhxstUniversalHub.TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.TextLabel.BorderSizePixel = 0
+GhxstUniversalHub.TextLabel.Position = UDim2.new(0.438271612, 0, 0.748912334, 0)
+GhxstUniversalHub.TextLabel.Size = UDim2.new(0, 255, 0, 30)
+GhxstUniversalHub.TextLabel.Font = Enum.Font.SourceSans
+GhxstUniversalHub.TextLabel.Text = "Ghxst"
+GhxstUniversalHub.TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.TextLabel.TextScaled = true
+GhxstUniversalHub.TextLabel.TextSize = 14.000
+GhxstUniversalHub.TextLabel.TextStrokeTransparency = 0.790
+GhxstUniversalHub.TextLabel.TextTransparency = 0.790
+GhxstUniversalHub.TextLabel.TextWrapped = true
+
+GhxstUniversalHub.ImageLabel.Parent = GhxstUniversalHub.LogoMainClient
+GhxstUniversalHub.ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.ImageLabel.BackgroundTransparency = 1.000
+GhxstUniversalHub.ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.ImageLabel.BorderSizePixel = 0
+GhxstUniversalHub.ImageLabel.Position = UDim2.new(0.848765433, 0, 0.319999993, 0)
+GhxstUniversalHub.ImageLabel.Size = UDim2.new(0, 112, 0, 117)
+GhxstUniversalHub.ImageLabel.Image = "rbxassetid://18270815488"
+GhxstUniversalHub.ImageLabel.ImageTransparency = 0.550
+
+GhxstUniversalHub.ButtonFrame.Name = "ButtonFrame"
+GhxstUniversalHub.ButtonFrame.Parent = GhxstUniversalHub.LogoHolderToggleMB
+GhxstUniversalHub.ButtonFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.ButtonFrame.BackgroundTransparency = 1.000
+GhxstUniversalHub.ButtonFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.ButtonFrame.BorderSizePixel = 0
+GhxstUniversalHub.ButtonFrame.Position = UDim2.new(0.0234741792, 0, 0.836515486, 0)
+GhxstUniversalHub.ButtonFrame.Size = UDim2.new(0, 90, 0, 94)
+
+GhxstUniversalHub.UICorner.Parent = GhxstUniversalHub.ButtonFrame
+
+GhxstUniversalHub.ToggleButton.Name = "ToggleButton"
+GhxstUniversalHub.ToggleButton.Parent = GhxstUniversalHub.ButtonFrame
+GhxstUniversalHub.ToggleButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+GhxstUniversalHub.ToggleButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.ToggleButton.BorderSizePixel = 0
+GhxstUniversalHub.ToggleButton.Size = UDim2.new(0, 70, 0, 70)
+GhxstUniversalHub.ToggleButton.Image = "rbxassetid://18270815488"
+
+GhxstUniversalHub.UICorner_2.Parent = GhxstUniversalHub.ToggleButton
+
+GhxstUniversalHub.GhxstUniversalHub.Name = "Ghxst Universal Hub"
+GhxstUniversalHub.GhxstUniversalHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+GhxstUniversalHub.GhxstUniversalHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+GhxstUniversalHub.GhxstUniversalHub.ResetOnSpawn = false
+
+GhxstUniversalHub.MainFrame.Name = "MainFrame"
+GhxstUniversalHub.MainFrame.Parent = GhxstUniversalHub.GhxstUniversalHub
+GhxstUniversalHub.MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.MainFrame.BackgroundTransparency = 1.000
+GhxstUniversalHub.MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.MainFrame.BorderSizePixel = 0
+GhxstUniversalHub.MainFrame.Position = UDim2.new(0.44099763, 0, 0.220559716, 0)
+GhxstUniversalHub.MainFrame.Size = UDim2.new(0, 501, 0, 436)
+
+GhxstUniversalHub.Tab1Content.Name = "Tab1Content"
+GhxstUniversalHub.Tab1Content.Parent = GhxstUniversalHub.MainFrame
+GhxstUniversalHub.Tab1Content.AnchorPoint = Vector2.new(0.5, 0.5)
+GhxstUniversalHub.Tab1Content.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GhxstUniversalHub.Tab1Content.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab1Content.BorderSizePixel = 0
+GhxstUniversalHub.Tab1Content.Position = UDim2.new(0.814395845, 0, 0.545612276, 0)
+GhxstUniversalHub.Tab1Content.Size = UDim2.new(0, 531, 0, 380)
+
+GhxstUniversalHub.TextLabel_2.Parent = GhxstUniversalHub.Tab1Content
+GhxstUniversalHub.TextLabel_2.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+GhxstUniversalHub.TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.TextLabel_2.BorderSizePixel = 0
+GhxstUniversalHub.TextLabel_2.Position = UDim2.new(0, 0, 0.00619370304, 0)
+GhxstUniversalHub.TextLabel_2.Size = UDim2.new(0, 437, 0, 38)
+GhxstUniversalHub.TextLabel_2.Font = Enum.Font.Unknown
+GhxstUniversalHub.TextLabel_2.Text = "INFORMATION"
+GhxstUniversalHub.TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TextLabel_2.TextScaled = true
+GhxstUniversalHub.TextLabel_2.TextSize = 14.000
+GhxstUniversalHub.TextLabel_2.TextWrapped = true
+GhxstUniversalHub.TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+GhxstUniversalHub.TextLabel_3.Parent = GhxstUniversalHub.Tab1Content
+GhxstUniversalHub.TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TextLabel_3.BackgroundTransparency = 0.990
+GhxstUniversalHub.TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.TextLabel_3.BorderSizePixel = 0
+GhxstUniversalHub.TextLabel_3.Position = UDim2.new(0.0174089279, 0, 0.161990523, 0)
+GhxstUniversalHub.TextLabel_3.Size = UDim2.new(0, 208, 0, 56)
+GhxstUniversalHub.TextLabel_3.Font = Enum.Font.SourceSans
+GhxstUniversalHub.TextLabel_3.Text = "Ghxst Client V3.9"
+GhxstUniversalHub.TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TextLabel_3.TextScaled = true
+GhxstUniversalHub.TextLabel_3.TextSize = 14.000
+GhxstUniversalHub.TextLabel_3.TextWrapped = true
+
+GhxstUniversalHub.TextLabel_4.Parent = GhxstUniversalHub.Tab1Content
+GhxstUniversalHub.TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TextLabel_4.BackgroundTransparency = 0.990
+GhxstUniversalHub.TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.TextLabel_4.BorderSizePixel = 0
+GhxstUniversalHub.TextLabel_4.Position = UDim2.new(0.00517499959, 0, 0.284588695, 0)
+GhxstUniversalHub.TextLabel_4.Size = UDim2.new(0, 219, 0, 50)
+GhxstUniversalHub.TextLabel_4.Font = Enum.Font.SourceSans
+GhxstUniversalHub.TextLabel_4.Text = "Old Name- Bloxxy Hub"
+GhxstUniversalHub.TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TextLabel_4.TextScaled = true
+GhxstUniversalHub.TextLabel_4.TextSize = 14.000
+GhxstUniversalHub.TextLabel_4.TextWrapped = true
+
+GhxstUniversalHub.TextLabel_5.Parent = GhxstUniversalHub.Tab1Content
+GhxstUniversalHub.TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TextLabel_5.BackgroundTransparency = 0.990
+GhxstUniversalHub.TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.TextLabel_5.BorderSizePixel = 0
+GhxstUniversalHub.TextLabel_5.Position = UDim2.new(-0.000435407099, 0, 0.379365474, 0)
+GhxstUniversalHub.TextLabel_5.Size = UDim2.new(0, 250, 0, 50)
+GhxstUniversalHub.TextLabel_5.Font = Enum.Font.SourceSans
+GhxstUniversalHub.TextLabel_5.Text = "New Name- Ghxst Client"
+GhxstUniversalHub.TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TextLabel_5.TextScaled = true
+GhxstUniversalHub.TextLabel_5.TextSize = 14.000
+GhxstUniversalHub.TextLabel_5.TextWrapped = true
+
+GhxstUniversalHub.TextLabel_6.Parent = GhxstUniversalHub.Tab1Content
+GhxstUniversalHub.TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TextLabel_6.BackgroundTransparency = 0.990
+GhxstUniversalHub.TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.TextLabel_6.BorderSizePixel = 0
+GhxstUniversalHub.TextLabel_6.Position = UDim2.new(0.00682559237, 0, 0.508899093, 0)
+GhxstUniversalHub.TextLabel_6.Size = UDim2.new(0, 219, 0, 50)
+GhxstUniversalHub.TextLabel_6.Font = Enum.Font.SourceSans
+GhxstUniversalHub.TextLabel_6.Text = "Update Logs- "
+GhxstUniversalHub.TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TextLabel_6.TextScaled = true
+GhxstUniversalHub.TextLabel_6.TextSize = 14.000
+GhxstUniversalHub.TextLabel_6.TextWrapped = true
+
+GhxstUniversalHub.TextLabel_7.Parent = GhxstUniversalHub.Tab1Content
+GhxstUniversalHub.TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TextLabel_7.BackgroundTransparency = 0.990
+GhxstUniversalHub.TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.TextLabel_7.BorderSizePixel = 0
+GhxstUniversalHub.TextLabel_7.Position = UDim2.new(-0.00178875541, 0, 0.633169711, 0)
+GhxstUniversalHub.TextLabel_7.Size = UDim2.new(0, 313, 0, 126)
+GhxstUniversalHub.TextLabel_7.Font = Enum.Font.SourceSans
+GhxstUniversalHub.TextLabel_7.Text = "New UI, New Theme, Mobile support, more scripts, Seperate game scripts"
+GhxstUniversalHub.TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TextLabel_7.TextScaled = true
+GhxstUniversalHub.TextLabel_7.TextSize = 14.000
+GhxstUniversalHub.TextLabel_7.TextWrapped = true
+
+GhxstUniversalHub.TextLabel_8.Parent = GhxstUniversalHub.Tab1Content
+GhxstUniversalHub.TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TextLabel_8.BackgroundTransparency = 0.990
+GhxstUniversalHub.TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.TextLabel_8.BorderSizePixel = 0
+GhxstUniversalHub.TextLabel_8.Position = UDim2.new(0.606862783, 0, 0.867253661, 0)
+GhxstUniversalHub.TextLabel_8.Size = UDim2.new(0, 208, 0, 37)
+GhxstUniversalHub.TextLabel_8.Font = Enum.Font.SourceSans
+GhxstUniversalHub.TextLabel_8.Text = "Keybind For Pc- CTRL (Left/Right)"
+GhxstUniversalHub.TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TextLabel_8.TextScaled = true
+GhxstUniversalHub.TextLabel_8.TextSize = 14.000
+GhxstUniversalHub.TextLabel_8.TextWrapped = true
+
+GhxstUniversalHub.Tab2Content.Name = "Tab2Content"
+GhxstUniversalHub.Tab2Content.Parent = GhxstUniversalHub.MainFrame
+GhxstUniversalHub.Tab2Content.AnchorPoint = Vector2.new(0.5, 0.5)
+GhxstUniversalHub.Tab2Content.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GhxstUniversalHub.Tab2Content.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab2Content.BorderSizePixel = 0
+GhxstUniversalHub.Tab2Content.Position = UDim2.new(0.81400001, 0, 0.546000004, 0)
+GhxstUniversalHub.Tab2Content.Size = UDim2.new(0, 531, 0, 380)
+GhxstUniversalHub.Tab2Content.Visible = false
+
+GhxstUniversalHub.Buttons.Name = "Buttons"
+GhxstUniversalHub.Buttons.Parent = GhxstUniversalHub.Tab2Content
+
+GhxstUniversalHub.BowDown.Name = "Bow Down"
+GhxstUniversalHub.BowDown.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.BowDown.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.BowDown.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.BowDown.BorderSizePixel = 0
+GhxstUniversalHub.BowDown.Position = UDim2.new(0.279966891, 0, 0.105599657, 0)
+GhxstUniversalHub.BowDown.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.BowDown.Font = Enum.Font.SourceSans
+GhxstUniversalHub.BowDown.Text = "Bow Down"
+GhxstUniversalHub.BowDown.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.BowDown.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_3.Parent = GhxstUniversalHub.BowDown
+
+GhxstUniversalHub.clickLeft.Name = "clickLeft"
+GhxstUniversalHub.clickLeft.Parent = GhxstUniversalHub.BowDown
+GhxstUniversalHub.clickLeft.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Crawl.Name = "Crawl"
+GhxstUniversalHub.Crawl.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.Crawl.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Crawl.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Crawl.BorderSizePixel = 0
+GhxstUniversalHub.Crawl.Position = UDim2.new(0.0361390188, 0, 0.284923911, 0)
+GhxstUniversalHub.Crawl.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.Crawl.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Crawl.Text = "Crawl"
+GhxstUniversalHub.Crawl.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Crawl.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_4.Parent = GhxstUniversalHub.Crawl
+
+GhxstUniversalHub.clickLeft_2.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_2.Parent = GhxstUniversalHub.Crawl
+GhxstUniversalHub.clickLeft_2.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_2.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_2.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_2.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_2.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_2.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Dab.Name = "Dab"
+GhxstUniversalHub.Dab.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.Dab.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Dab.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Dab.BorderSizePixel = 0
+GhxstUniversalHub.Dab.Position = UDim2.new(0.0361390188, 0, 0.45898509, 0)
+GhxstUniversalHub.Dab.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.Dab.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Dab.Text = "Dab"
+GhxstUniversalHub.Dab.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Dab.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_5.Parent = GhxstUniversalHub.Dab
+
+GhxstUniversalHub.clickLeft_3.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_3.Parent = GhxstUniversalHub.Dab
+GhxstUniversalHub.clickLeft_3.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_3.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_3.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_3.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_3.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_3.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.FloatingHead.Name = "Floating Head"
+GhxstUniversalHub.FloatingHead.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.FloatingHead.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.FloatingHead.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.FloatingHead.BorderSizePixel = 0
+GhxstUniversalHub.FloatingHead.Position = UDim2.new(0.0361390188, 0, 0.635529697, 0)
+GhxstUniversalHub.FloatingHead.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.FloatingHead.Font = Enum.Font.SourceSans
+GhxstUniversalHub.FloatingHead.Text = "Floating Head"
+GhxstUniversalHub.FloatingHead.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.FloatingHead.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_6.Parent = GhxstUniversalHub.FloatingHead
+
+GhxstUniversalHub.clickLeft_4.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_4.Parent = GhxstUniversalHub.FloatingHead
+GhxstUniversalHub.clickLeft_4.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_4.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_4.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_4.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_4.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_4.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Faint.Name = "Faint"
+GhxstUniversalHub.Faint.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.Faint.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Faint.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Faint.BorderSizePixel = 0
+GhxstUniversalHub.Faint.Position = UDim2.new(0.279966891, 0, 0.45898509, 0)
+GhxstUniversalHub.Faint.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.Faint.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Faint.Text = "Faint"
+GhxstUniversalHub.Faint.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Faint.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_7.Parent = GhxstUniversalHub.Faint
+
+GhxstUniversalHub.clickLeft_5.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_5.Parent = GhxstUniversalHub.Faint
+GhxstUniversalHub.clickLeft_5.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_5.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_5.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_5.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_5.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_5.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Crouch.Name = "Crouch"
+GhxstUniversalHub.Crouch.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.Crouch.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Crouch.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Crouch.BorderSizePixel = 0
+GhxstUniversalHub.Crouch.Position = UDim2.new(0.279966891, 0, 0.284923911, 0)
+GhxstUniversalHub.Crouch.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.Crouch.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Crouch.Text = "Crouch"
+GhxstUniversalHub.Crouch.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Crouch.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_8.Parent = GhxstUniversalHub.Crouch
+
+GhxstUniversalHub.clickLeft_6.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_6.Parent = GhxstUniversalHub.Crouch
+GhxstUniversalHub.clickLeft_6.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_6.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_6.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_6.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_6.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_6.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.FloatingSit.Name = "Floating Sit"
+GhxstUniversalHub.FloatingSit.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.FloatingSit.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.FloatingSit.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.FloatingSit.BorderSizePixel = 0
+GhxstUniversalHub.FloatingSit.Position = UDim2.new(0.279966891, 0, 0.635529697, 0)
+GhxstUniversalHub.FloatingSit.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.FloatingSit.Font = Enum.Font.SourceSans
+GhxstUniversalHub.FloatingSit.Text = "Floating Sit"
+GhxstUniversalHub.FloatingSit.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.FloatingSit.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_9.Parent = GhxstUniversalHub.FloatingSit
+
+GhxstUniversalHub.clickLeft_7.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_7.Parent = GhxstUniversalHub.FloatingSit
+GhxstUniversalHub.clickLeft_7.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_7.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_7.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_7.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_7.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_7.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.BarrelRoll.Name = "Barrel Roll"
+GhxstUniversalHub.BarrelRoll.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.BarrelRoll.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.BarrelRoll.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.BarrelRoll.BorderSizePixel = 0
+GhxstUniversalHub.BarrelRoll.Position = UDim2.new(0.0361390188, 0, 0.105599657, 0)
+GhxstUniversalHub.BarrelRoll.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.BarrelRoll.Font = Enum.Font.SourceSans
+GhxstUniversalHub.BarrelRoll.Text = "Barrel Roll"
+GhxstUniversalHub.BarrelRoll.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.BarrelRoll.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_10.Parent = GhxstUniversalHub.BarrelRoll
+
+GhxstUniversalHub.clickLeft_8.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_8.Parent = GhxstUniversalHub.BarrelRoll
+GhxstUniversalHub.clickLeft_8.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_8.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_8.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_8.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_8.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_8.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.HappyDance.Name = "Happy Dance"
+GhxstUniversalHub.HappyDance.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.HappyDance.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.HappyDance.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.HappyDance.BorderSizePixel = 0
+GhxstUniversalHub.HappyDance.Position = UDim2.new(0.0361390188, 0, 0.80936867, 0)
+GhxstUniversalHub.HappyDance.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.HappyDance.Font = Enum.Font.SourceSans
+GhxstUniversalHub.HappyDance.Text = "Happy Dance"
+GhxstUniversalHub.HappyDance.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.HappyDance.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_11.Parent = GhxstUniversalHub.HappyDance
+
+GhxstUniversalHub.clickLeft_9.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_9.Parent = GhxstUniversalHub.HappyDance
+GhxstUniversalHub.clickLeft_9.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_9.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_9.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_9.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_9.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_9.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Insane.Name = "Insane"
+GhxstUniversalHub.Insane.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.Insane.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Insane.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Insane.BorderSizePixel = 0
+GhxstUniversalHub.Insane.Position = UDim2.new(0.279966891, 0, 0.80936867, 0)
+GhxstUniversalHub.Insane.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.Insane.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Insane.Text = "Insane"
+GhxstUniversalHub.Insane.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Insane.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_12.Parent = GhxstUniversalHub.Insane
+
+GhxstUniversalHub.clickLeft_10.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_10.Parent = GhxstUniversalHub.Insane
+GhxstUniversalHub.clickLeft_10.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_10.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_10.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_10.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_10.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_10.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Levitate.Name = "Levitate"
+GhxstUniversalHub.Levitate.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.Levitate.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Levitate.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Levitate.BorderSizePixel = 0
+GhxstUniversalHub.Levitate.Position = UDim2.new(0.527651131, 0, 0.105599657, 0)
+GhxstUniversalHub.Levitate.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.Levitate.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Levitate.Text = "Levitate"
+GhxstUniversalHub.Levitate.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Levitate.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_13.Parent = GhxstUniversalHub.Levitate
+
+GhxstUniversalHub.clickLeft_11.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_11.Parent = GhxstUniversalHub.Levitate
+GhxstUniversalHub.clickLeft_11.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_11.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_11.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_11.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_11.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_11.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.MoonDance.Name = "Moon-Dance"
+GhxstUniversalHub.MoonDance.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.MoonDance.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.MoonDance.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.MoonDance.BorderSizePixel = 0
+GhxstUniversalHub.MoonDance.Position = UDim2.new(0.527651131, 0, 0.284923911, 0)
+GhxstUniversalHub.MoonDance.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.MoonDance.Font = Enum.Font.SourceSans
+GhxstUniversalHub.MoonDance.Text = "Moon-Dance"
+GhxstUniversalHub.MoonDance.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.MoonDance.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_14.Parent = GhxstUniversalHub.MoonDance
+
+GhxstUniversalHub.clickLeft_12.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_12.Parent = GhxstUniversalHub.MoonDance
+GhxstUniversalHub.clickLeft_12.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_12.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_12.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_12.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_12.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_12.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.MovingDance.Name = "Moving Dance"
+GhxstUniversalHub.MovingDance.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.MovingDance.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.MovingDance.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.MovingDance.BorderSizePixel = 0
+GhxstUniversalHub.MovingDance.Position = UDim2.new(0.527651131, 0, 0.453721941, 0)
+GhxstUniversalHub.MovingDance.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.MovingDance.Font = Enum.Font.SourceSans
+GhxstUniversalHub.MovingDance.Text = "Moving Dance"
+GhxstUniversalHub.MovingDance.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.MovingDance.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_15.Parent = GhxstUniversalHub.MovingDance
+
+GhxstUniversalHub.clickLeft_13.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_13.Parent = GhxstUniversalHub.MovingDance
+GhxstUniversalHub.clickLeft_13.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_13.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_13.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_13.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_13.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_13.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Slap.Name = "Slap"
+GhxstUniversalHub.Slap.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.Slap.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Slap.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Slap.BorderSizePixel = 0
+GhxstUniversalHub.Slap.Position = UDim2.new(0.527651131, 0, 0.635529697, 0)
+GhxstUniversalHub.Slap.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.Slap.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Slap.Text = "Slap"
+GhxstUniversalHub.Slap.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Slap.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_16.Parent = GhxstUniversalHub.Slap
+
+GhxstUniversalHub.clickLeft_14.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_14.Parent = GhxstUniversalHub.Slap
+GhxstUniversalHub.clickLeft_14.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_14.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_14.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_14.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_14.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_14.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Punch.Name = "Punch"
+GhxstUniversalHub.Punch.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.Punch.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Punch.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Punch.BorderSizePixel = 0
+GhxstUniversalHub.Punch.Position = UDim2.new(0.527651131, 0, 0.80936867, 0)
+GhxstUniversalHub.Punch.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.Punch.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Punch.Text = "Punch"
+GhxstUniversalHub.Punch.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Punch.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_17.Parent = GhxstUniversalHub.Punch
+
+GhxstUniversalHub.clickLeft_15.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_15.Parent = GhxstUniversalHub.Punch
+GhxstUniversalHub.clickLeft_15.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_15.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_15.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_15.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_15.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_15.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.SpinAttack.Name = "Spin Attack"
+GhxstUniversalHub.SpinAttack.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.SpinAttack.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.SpinAttack.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.SpinAttack.BorderSizePixel = 0
+GhxstUniversalHub.SpinAttack.Position = UDim2.new(0.767532825, 0, 0.105599657, 0)
+GhxstUniversalHub.SpinAttack.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.SpinAttack.Font = Enum.Font.SourceSans
+GhxstUniversalHub.SpinAttack.Text = "Spin Attack"
+GhxstUniversalHub.SpinAttack.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.SpinAttack.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_18.Parent = GhxstUniversalHub.SpinAttack
+
+GhxstUniversalHub.clickLeft_16.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_16.Parent = GhxstUniversalHub.SpinAttack
+GhxstUniversalHub.clickLeft_16.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_16.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_16.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_16.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_16.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_16.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.SpinDance.Name = "Spin Dance"
+GhxstUniversalHub.SpinDance.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.SpinDance.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.SpinDance.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.SpinDance.BorderSizePixel = 0
+GhxstUniversalHub.SpinDance.Position = UDim2.new(0.767532825, 0, 0.284923911, 0)
+GhxstUniversalHub.SpinDance.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.SpinDance.Font = Enum.Font.SourceSans
+GhxstUniversalHub.SpinDance.Text = "Spin Dance"
+GhxstUniversalHub.SpinDance.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.SpinDance.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_19.Parent = GhxstUniversalHub.SpinDance
+
+GhxstUniversalHub.clickLeft_17.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_17.Parent = GhxstUniversalHub.SpinDance
+GhxstUniversalHub.clickLeft_17.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_17.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_17.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_17.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_17.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_17.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Spin.Name = "Spin"
+GhxstUniversalHub.Spin.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.Spin.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Spin.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Spin.BorderSizePixel = 0
+GhxstUniversalHub.Spin.Position = UDim2.new(0.767532825, 0, 0.45898509, 0)
+GhxstUniversalHub.Spin.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.Spin.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Spin.Text = "Spin"
+GhxstUniversalHub.Spin.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Spin.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_20.Parent = GhxstUniversalHub.Spin
+
+GhxstUniversalHub.clickLeft_18.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_18.Parent = GhxstUniversalHub.Spin
+GhxstUniversalHub.clickLeft_18.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_18.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_18.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_18.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_18.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_18.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Clone.Name = "Clone"
+GhxstUniversalHub.Clone.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.Clone.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Clone.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Clone.BorderSizePixel = 0
+GhxstUniversalHub.Clone.Position = UDim2.new(0.767532825, 0, 0.635529697, 0)
+GhxstUniversalHub.Clone.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.Clone.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Clone.Text = "Clone"
+GhxstUniversalHub.Clone.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Clone.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_21.Parent = GhxstUniversalHub.Clone
+
+GhxstUniversalHub.clickLeft_19.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_19.Parent = GhxstUniversalHub.Clone
+GhxstUniversalHub.clickLeft_19.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_19.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_19.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_19.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_19.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_19.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Invisible.Name = "Invisible"
+GhxstUniversalHub.Invisible.Parent = GhxstUniversalHub.Buttons
+GhxstUniversalHub.Invisible.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Invisible.BorderColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Invisible.BorderSizePixel = 0
+GhxstUniversalHub.Invisible.Position = UDim2.new(0.767532825, 0, 0.80936867, 0)
+GhxstUniversalHub.Invisible.Size = UDim2.new(0, 101, 0, 50)
+GhxstUniversalHub.Invisible.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Invisible.Text = "Invisible"
+GhxstUniversalHub.Invisible.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Invisible.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_22.Parent = GhxstUniversalHub.Invisible
+
+GhxstUniversalHub.clickLeft_20.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_20.Parent = GhxstUniversalHub.Invisible
+GhxstUniversalHub.clickLeft_20.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_20.Position = UDim2.new(0.801661134, 0, 0.300000012, 0)
+GhxstUniversalHub.clickLeft_20.Size = UDim2.new(0, 20, 0, 20)
+GhxstUniversalHub.clickLeft_20.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_20.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_20.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Sec.Name = "Sec"
+GhxstUniversalHub.Sec.Parent = GhxstUniversalHub.Tab2Content
+GhxstUniversalHub.Sec.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+GhxstUniversalHub.Sec.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Sec.BorderSizePixel = 0
+GhxstUniversalHub.Sec.Position = UDim2.new(0.0809795111, 0, 0.0107180141, 0)
+GhxstUniversalHub.Sec.Size = UDim2.new(0, 429, 0, 21)
+GhxstUniversalHub.Sec.Font = Enum.Font.Ubuntu
+GhxstUniversalHub.Sec.Text = "R6 Fe Animations"
+GhxstUniversalHub.Sec.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Sec.TextScaled = true
+GhxstUniversalHub.Sec.TextSize = 14.000
+GhxstUniversalHub.Sec.TextWrapped = true
+
+GhxstUniversalHub.UICorner_23.CornerRadius = UDim.new(0, 4)
+GhxstUniversalHub.UICorner_23.Parent = GhxstUniversalHub.Sec
+
+GhxstUniversalHub.Tab3Content.Name = "Tab3Content"
+GhxstUniversalHub.Tab3Content.Parent = GhxstUniversalHub.MainFrame
+GhxstUniversalHub.Tab3Content.AnchorPoint = Vector2.new(0.5, 0.5)
+GhxstUniversalHub.Tab3Content.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GhxstUniversalHub.Tab3Content.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab3Content.BorderSizePixel = 0
+GhxstUniversalHub.Tab3Content.Position = UDim2.new(0.81400001, 0, 0.546000004, 0)
+GhxstUniversalHub.Tab3Content.Size = UDim2.new(0, 531, 0, 380)
+GhxstUniversalHub.Tab3Content.Visible = false
+
+GhxstUniversalHub.Sec_2.Name = "Sec"
+GhxstUniversalHub.Sec_2.Parent = GhxstUniversalHub.Tab3Content
+GhxstUniversalHub.Sec_2.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+GhxstUniversalHub.Sec_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Sec_2.BorderSizePixel = 0
+GhxstUniversalHub.Sec_2.Position = UDim2.new(0.0810000002, 0, 0.0109999999, 0)
+GhxstUniversalHub.Sec_2.Size = UDim2.new(0, 429, 0, 21)
+GhxstUniversalHub.Sec_2.Font = Enum.Font.Ubuntu
+GhxstUniversalHub.Sec_2.Text = "Admin Scripts"
+GhxstUniversalHub.Sec_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Sec_2.TextScaled = true
+GhxstUniversalHub.Sec_2.TextSize = 14.000
+GhxstUniversalHub.Sec_2.TextWrapped = true
+
+GhxstUniversalHub.UICorner_24.CornerRadius = UDim.new(0, 4)
+GhxstUniversalHub.UICorner_24.Parent = GhxstUniversalHub.Sec_2
+
+GhxstUniversalHub.Buttons_2.Name = "Buttons"
+GhxstUniversalHub.Buttons_2.Parent = GhxstUniversalHub.Tab3Content
+
+GhxstUniversalHub.InfiniteYield.Name = "Infinite Yield"
+GhxstUniversalHub.InfiniteYield.Parent = GhxstUniversalHub.Buttons_2
+GhxstUniversalHub.InfiniteYield.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.InfiniteYield.BorderSizePixel = 0
+GhxstUniversalHub.InfiniteYield.Position = UDim2.new(0.046652697, 0, 0.105414458, 0)
+GhxstUniversalHub.InfiniteYield.Size = UDim2.new(0, 465, 0, 50)
+GhxstUniversalHub.InfiniteYield.Font = Enum.Font.SourceSans
+GhxstUniversalHub.InfiniteYield.Text = "Infinite Yield"
+GhxstUniversalHub.InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.InfiniteYield.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_25.Parent = GhxstUniversalHub.InfiniteYield
+
+GhxstUniversalHub.clickLeft_21.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_21.Parent = GhxstUniversalHub.InfiniteYield
+GhxstUniversalHub.clickLeft_21.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_21.Position = UDim2.new(0.870967746, 0, 0, 0)
+GhxstUniversalHub.clickLeft_21.Size = UDim2.new(0, 50, 0, 50)
+GhxstUniversalHub.clickLeft_21.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_21.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_21.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.NamelessAdmin.Name = "Nameless Admin"
+GhxstUniversalHub.NamelessAdmin.Parent = GhxstUniversalHub.Buttons_2
+GhxstUniversalHub.NamelessAdmin.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.NamelessAdmin.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.NamelessAdmin.BorderSizePixel = 0
+GhxstUniversalHub.NamelessAdmin.Position = UDim2.new(0.0472805202, 0, 0.31134811, 0)
+GhxstUniversalHub.NamelessAdmin.Size = UDim2.new(0, 465, 0, 50)
+GhxstUniversalHub.NamelessAdmin.Font = Enum.Font.SourceSans
+GhxstUniversalHub.NamelessAdmin.Text = "Nameless Admin"
+GhxstUniversalHub.NamelessAdmin.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.NamelessAdmin.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_26.Parent = GhxstUniversalHub.NamelessAdmin
+
+GhxstUniversalHub.clickLeft_22.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_22.Parent = GhxstUniversalHub.NamelessAdmin
+GhxstUniversalHub.clickLeft_22.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_22.Position = UDim2.new(0.870967746, 0, 0, 0)
+GhxstUniversalHub.clickLeft_22.Size = UDim2.new(0, 50, 0, 50)
+GhxstUniversalHub.clickLeft_22.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_22.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_22.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.FatesAdmin.Name = "Fate's Admin"
+GhxstUniversalHub.FatesAdmin.Parent = GhxstUniversalHub.Buttons_2
+GhxstUniversalHub.FatesAdmin.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.FatesAdmin.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.FatesAdmin.BorderSizePixel = 0
+GhxstUniversalHub.FatesAdmin.Position = UDim2.new(0.046652697, 0, 0.531379044, 0)
+GhxstUniversalHub.FatesAdmin.Size = UDim2.new(0, 465, 0, 50)
+GhxstUniversalHub.FatesAdmin.Font = Enum.Font.SourceSans
+GhxstUniversalHub.FatesAdmin.Text = "Fate's Admin"
+GhxstUniversalHub.FatesAdmin.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.FatesAdmin.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_27.Parent = GhxstUniversalHub.FatesAdmin
+
+GhxstUniversalHub.clickLeft_23.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_23.Parent = GhxstUniversalHub.FatesAdmin
+GhxstUniversalHub.clickLeft_23.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_23.Position = UDim2.new(0.870967746, 0, 0, 0)
+GhxstUniversalHub.clickLeft_23.Size = UDim2.new(0, 50, 0, 50)
+GhxstUniversalHub.clickLeft_23.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_23.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_23.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Tab4Content.Name = "Tab4Content"
+GhxstUniversalHub.Tab4Content.Parent = GhxstUniversalHub.MainFrame
+GhxstUniversalHub.Tab4Content.AnchorPoint = Vector2.new(0.5, 0.5)
+GhxstUniversalHub.Tab4Content.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GhxstUniversalHub.Tab4Content.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab4Content.BorderSizePixel = 0
+GhxstUniversalHub.Tab4Content.Position = UDim2.new(0.81400001, 0, 0.546000004, 0)
+GhxstUniversalHub.Tab4Content.Size = UDim2.new(0, 531, 0, 380)
+GhxstUniversalHub.Tab4Content.Visible = false
+
+GhxstUniversalHub.Sec_3.Name = "Sec"
+GhxstUniversalHub.Sec_3.Parent = GhxstUniversalHub.Tab4Content
+GhxstUniversalHub.Sec_3.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+GhxstUniversalHub.Sec_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Sec_3.BorderSizePixel = 0
+GhxstUniversalHub.Sec_3.Position = UDim2.new(0.0810000002, 0, 0.0109999999, 0)
+GhxstUniversalHub.Sec_3.Size = UDim2.new(0, 429, 0, 21)
+GhxstUniversalHub.Sec_3.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Sec_3.Text = "R15 Scripts/Animations"
+GhxstUniversalHub.Sec_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Sec_3.TextScaled = true
+GhxstUniversalHub.Sec_3.TextSize = 14.000
+GhxstUniversalHub.Sec_3.TextWrapped = true
+
+GhxstUniversalHub.UICorner_28.CornerRadius = UDim.new(0, 4)
+GhxstUniversalHub.UICorner_28.Parent = GhxstUniversalHub.Sec_3
+
+GhxstUniversalHub.Buttons_3.Name = "Buttons"
+GhxstUniversalHub.Buttons_3.Parent = GhxstUniversalHub.Tab4Content
+
+GhxstUniversalHub.BackFrontFlip.Name = "Back/Front Flip"
+GhxstUniversalHub.BackFrontFlip.Parent = GhxstUniversalHub.Buttons_3
+GhxstUniversalHub.BackFrontFlip.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.BackFrontFlip.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.BackFrontFlip.BorderSizePixel = 0
+GhxstUniversalHub.BackFrontFlip.Position = UDim2.new(0.0343599208, 0, 0.579283953, 0)
+GhxstUniversalHub.BackFrontFlip.Size = UDim2.new(0, 200, 0, 50)
+GhxstUniversalHub.BackFrontFlip.Font = Enum.Font.SourceSans
+GhxstUniversalHub.BackFrontFlip.Text = "Back/ Front Flip, Z,X,C"
+GhxstUniversalHub.BackFrontFlip.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.BackFrontFlip.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_29.Parent = GhxstUniversalHub.BackFrontFlip
+
+GhxstUniversalHub.clickLeft_24.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_24.Parent = GhxstUniversalHub.BackFrontFlip
+GhxstUniversalHub.clickLeft_24.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_24.Position = UDim2.new(0.000968017557, 0, 0.0361474603, 0)
+GhxstUniversalHub.clickLeft_24.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_24.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_24.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_24.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.CollisionsOff.Name = "Collisions Off"
+GhxstUniversalHub.CollisionsOff.Parent = GhxstUniversalHub.Buttons_3
+GhxstUniversalHub.CollisionsOff.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.CollisionsOff.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.CollisionsOff.BorderSizePixel = 0
+GhxstUniversalHub.CollisionsOff.Position = UDim2.new(0.512132764, 0, 0.765508294, 0)
+GhxstUniversalHub.CollisionsOff.Size = UDim2.new(0, 200, 0, 50)
+GhxstUniversalHub.CollisionsOff.Font = Enum.Font.SourceSans
+GhxstUniversalHub.CollisionsOff.Text = "Collisions Off"
+GhxstUniversalHub.CollisionsOff.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.CollisionsOff.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_30.Parent = GhxstUniversalHub.CollisionsOff
+
+GhxstUniversalHub.clickLeft_25.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_25.Parent = GhxstUniversalHub.CollisionsOff
+GhxstUniversalHub.clickLeft_25.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_25.Position = UDim2.new(0.745968044, 0, -0.003852539, 0)
+GhxstUniversalHub.clickLeft_25.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_25.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_25.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_25.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Invisible_2.Name = "Invisible"
+GhxstUniversalHub.Invisible_2.Parent = GhxstUniversalHub.Buttons_3
+GhxstUniversalHub.Invisible_2.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Invisible_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Invisible_2.BorderSizePixel = 0
+GhxstUniversalHub.Invisible_2.Position = UDim2.new(0.512132764, 0, 0.558231294, 0)
+GhxstUniversalHub.Invisible_2.Size = UDim2.new(0, 200, 0, 50)
+GhxstUniversalHub.Invisible_2.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Invisible_2.Text = "Invisible (R6, R15)"
+GhxstUniversalHub.Invisible_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Invisible_2.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_31.Parent = GhxstUniversalHub.Invisible_2
+
+GhxstUniversalHub.clickLeft_26.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_26.Parent = GhxstUniversalHub.Invisible_2
+GhxstUniversalHub.clickLeft_26.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_26.Position = UDim2.new(0.745968044, 0, -0.003852539, 0)
+GhxstUniversalHub.clickLeft_26.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_26.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_26.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_26.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Fly.Name = "Fly"
+GhxstUniversalHub.Fly.Parent = GhxstUniversalHub.Buttons_3
+GhxstUniversalHub.Fly.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Fly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Fly.BorderSizePixel = 0
+GhxstUniversalHub.Fly.Position = UDim2.new(0.035223078, 0, 0.765508294, 0)
+GhxstUniversalHub.Fly.Size = UDim2.new(0, 200, 0, 50)
+GhxstUniversalHub.Fly.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Fly.Text = "Fly (R15/R6)"
+GhxstUniversalHub.Fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Fly.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_32.Parent = GhxstUniversalHub.Fly
+
+GhxstUniversalHub.clickLeft_27.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_27.Parent = GhxstUniversalHub.Fly
+GhxstUniversalHub.clickLeft_27.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_27.Position = UDim2.new(-0.00403198227, 0, -0.003852539, 0)
+GhxstUniversalHub.clickLeft_27.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_27.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_27.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_27.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Zombiewalk.Name = "Zombie walk"
+GhxstUniversalHub.Zombiewalk.Parent = GhxstUniversalHub.Buttons_3
+GhxstUniversalHub.Zombiewalk.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Zombiewalk.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Zombiewalk.BorderSizePixel = 0
+GhxstUniversalHub.Zombiewalk.Position = UDim2.new(0.0305934418, 0, 0.15071243, 0)
+GhxstUniversalHub.Zombiewalk.Size = UDim2.new(0, 200, 0, 50)
+GhxstUniversalHub.Zombiewalk.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Zombiewalk.Text = "Zombie Walking Animation"
+GhxstUniversalHub.Zombiewalk.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Zombiewalk.TextSize = 14.000
+GhxstUniversalHub.Zombiewalk.TextXAlignment = Enum.TextXAlignment.Right
+
+GhxstUniversalHub.UICorner_33.Parent = GhxstUniversalHub.Zombiewalk
+
+GhxstUniversalHub.clickLeft_28.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_28.Parent = GhxstUniversalHub.Zombiewalk
+GhxstUniversalHub.clickLeft_28.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_28.Position = UDim2.new(-0.00403198227, 0, -0.003852539, 0)
+GhxstUniversalHub.clickLeft_28.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_28.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_28.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_28.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.AllEmotesGUI.Name = "All Emotes GUI"
+GhxstUniversalHub.AllEmotesGUI.Parent = GhxstUniversalHub.Buttons_3
+GhxstUniversalHub.AllEmotesGUI.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.AllEmotesGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.AllEmotesGUI.BorderSizePixel = 0
+GhxstUniversalHub.AllEmotesGUI.Position = UDim2.new(0.512132764, 0, 0.15071243, 0)
+GhxstUniversalHub.AllEmotesGUI.Size = UDim2.new(0, 200, 0, 50)
+GhxstUniversalHub.AllEmotesGUI.Font = Enum.Font.SourceSans
+GhxstUniversalHub.AllEmotesGUI.Text = "All Emotes GUI"
+GhxstUniversalHub.AllEmotesGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.AllEmotesGUI.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_34.Parent = GhxstUniversalHub.AllEmotesGUI
+
+GhxstUniversalHub.clickLeft_29.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_29.Parent = GhxstUniversalHub.AllEmotesGUI
+GhxstUniversalHub.clickLeft_29.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_29.Position = UDim2.new(0.745968044, 0, -0.003852539, 0)
+GhxstUniversalHub.clickLeft_29.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_29.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_29.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_29.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.SystemBrokenHub.Name = "System Broken Hub"
+GhxstUniversalHub.SystemBrokenHub.Parent = GhxstUniversalHub.Buttons_3
+GhxstUniversalHub.SystemBrokenHub.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.SystemBrokenHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.SystemBrokenHub.BorderSizePixel = 0
+GhxstUniversalHub.SystemBrokenHub.Position = UDim2.new(0.0343599208, 0, 0.367549121, 0)
+GhxstUniversalHub.SystemBrokenHub.Size = UDim2.new(0, 200, 0, 50)
+GhxstUniversalHub.SystemBrokenHub.Font = Enum.Font.SourceSans
+GhxstUniversalHub.SystemBrokenHub.Text = "System Broken Hub"
+GhxstUniversalHub.SystemBrokenHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.SystemBrokenHub.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_35.Parent = GhxstUniversalHub.SystemBrokenHub
+
+GhxstUniversalHub.clickLeft_30.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_30.Parent = GhxstUniversalHub.SystemBrokenHub
+GhxstUniversalHub.clickLeft_30.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_30.Position = UDim2.new(0.000968017557, 0, -0.003852539, 0)
+GhxstUniversalHub.clickLeft_30.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_30.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_30.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_30.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.TurnOnCollisions.Name = "Turn On Collisions"
+GhxstUniversalHub.TurnOnCollisions.Parent = GhxstUniversalHub.Buttons_3
+GhxstUniversalHub.TurnOnCollisions.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.TurnOnCollisions.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.TurnOnCollisions.BorderSizePixel = 0
+GhxstUniversalHub.TurnOnCollisions.Position = UDim2.new(0.512132764, 0, 0.367549121, 0)
+GhxstUniversalHub.TurnOnCollisions.Size = UDim2.new(0, 200, 0, 50)
+GhxstUniversalHub.TurnOnCollisions.Font = Enum.Font.SourceSans
+GhxstUniversalHub.TurnOnCollisions.Text = "Turn On Collisions"
+GhxstUniversalHub.TurnOnCollisions.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TurnOnCollisions.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_36.Parent = GhxstUniversalHub.TurnOnCollisions
+
+GhxstUniversalHub.clickLeft_31.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_31.Parent = GhxstUniversalHub.TurnOnCollisions
+GhxstUniversalHub.clickLeft_31.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_31.Position = UDim2.new(0.745968044, 0, -0.003852539, 0)
+GhxstUniversalHub.clickLeft_31.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_31.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_31.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_31.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Tab10Content.Name = "Tab10Content"
+GhxstUniversalHub.Tab10Content.Parent = GhxstUniversalHub.MainFrame
+GhxstUniversalHub.Tab10Content.AnchorPoint = Vector2.new(0.5, 0.5)
+GhxstUniversalHub.Tab10Content.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GhxstUniversalHub.Tab10Content.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab10Content.BorderSizePixel = 0
+GhxstUniversalHub.Tab10Content.Position = UDim2.new(0.81400001, 0, 0.546000004, 0)
+GhxstUniversalHub.Tab10Content.Size = UDim2.new(0, 531, 0, 380)
+GhxstUniversalHub.Tab10Content.Visible = false
+
+GhxstUniversalHub.Sec_4.Name = "Sec"
+GhxstUniversalHub.Sec_4.Parent = GhxstUniversalHub.Tab10Content
+GhxstUniversalHub.Sec_4.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+GhxstUniversalHub.Sec_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Sec_4.BorderSizePixel = 0
+GhxstUniversalHub.Sec_4.Position = UDim2.new(0.0810000002, 0, 0.0109999999, 0)
+GhxstUniversalHub.Sec_4.Size = UDim2.new(0, 429, 0, 21)
+GhxstUniversalHub.Sec_4.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Sec_4.Text = "Credits"
+GhxstUniversalHub.Sec_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Sec_4.TextScaled = true
+GhxstUniversalHub.Sec_4.TextSize = 14.000
+GhxstUniversalHub.Sec_4.TextWrapped = true
+
+GhxstUniversalHub.TextLabel_9.Parent = GhxstUniversalHub.Tab10Content
+GhxstUniversalHub.TextLabel_9.BackgroundColor3 = Color3.fromRGB(129, 0, 0)
+GhxstUniversalHub.TextLabel_9.BackgroundTransparency = 2.000
+GhxstUniversalHub.TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.TextLabel_9.BorderSizePixel = 0
+GhxstUniversalHub.TextLabel_9.Position = UDim2.new(0.00906837638, 0, 0.275427312, 0)
+GhxstUniversalHub.TextLabel_9.Size = UDim2.new(0, 506, 0, 107)
+GhxstUniversalHub.TextLabel_9.Font = Enum.Font.SourceSans
+GhxstUniversalHub.TextLabel_9.Text = "Credits To Arceus X Edits On Roblox/Youtube."
+GhxstUniversalHub.TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TextLabel_9.TextScaled = true
+GhxstUniversalHub.TextLabel_9.TextSize = 14.000
+GhxstUniversalHub.TextLabel_9.TextWrapped = true
+
+GhxstUniversalHub.TabButtonsFrame.Name = "TabButtonsFrame"
+GhxstUniversalHub.TabButtonsFrame.Parent = GhxstUniversalHub.MainFrame
+GhxstUniversalHub.TabButtonsFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+GhxstUniversalHub.TabButtonsFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GhxstUniversalHub.TabButtonsFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.TabButtonsFrame.BorderSizePixel = 0
+GhxstUniversalHub.TabButtonsFrame.Position = UDim2.new(0.140899837, 0, 0.545817256, 0)
+GhxstUniversalHub.TabButtonsFrame.Size = UDim2.new(0, 143, 0, 388)
+
+GhxstUniversalHub.UICorner_37.CornerRadius = UDim.new(0, 7)
+GhxstUniversalHub.UICorner_37.Parent = GhxstUniversalHub.TabButtonsFrame
+
+GhxstUniversalHub.Tab2Button.Name = "Tab2Button"
+GhxstUniversalHub.Tab2Button.Parent = GhxstUniversalHub.TabButtonsFrame
+GhxstUniversalHub.Tab2Button.BackgroundColor3 = Color3.fromRGB(157, 0, 0)
+GhxstUniversalHub.Tab2Button.BackgroundTransparency = 1.000
+GhxstUniversalHub.Tab2Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab2Button.BorderSizePixel = 0
+GhxstUniversalHub.Tab2Button.Position = UDim2.new(0.000373466872, 0, 0.0769518837, 0)
+GhxstUniversalHub.Tab2Button.Size = UDim2.new(0, 133, 0, 29)
+GhxstUniversalHub.Tab2Button.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Tab2Button.Text = "R6 FE ANIMS"
+GhxstUniversalHub.Tab2Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Tab2Button.TextSize = 14.000
+GhxstUniversalHub.Tab2Button.TextWrapped = true
+
+GhxstUniversalHub.UICorner_38.CornerRadius = UDim.new(0, 4)
+GhxstUniversalHub.UICorner_38.Parent = GhxstUniversalHub.Tab2Button
+
+GhxstUniversalHub.Tab3Button.Name = "Tab3Button"
+GhxstUniversalHub.Tab3Button.Parent = GhxstUniversalHub.TabButtonsFrame
+GhxstUniversalHub.Tab3Button.BackgroundColor3 = Color3.fromRGB(157, 0, 0)
+GhxstUniversalHub.Tab3Button.BackgroundTransparency = 1.000
+GhxstUniversalHub.Tab3Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab3Button.BorderSizePixel = 0
+GhxstUniversalHub.Tab3Button.Position = UDim2.new(-0.0136257783, 0, 0.12154074, 0)
+GhxstUniversalHub.Tab3Button.Size = UDim2.new(0, 133, 0, 29)
+GhxstUniversalHub.Tab3Button.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Tab3Button.Text = "Admin"
+GhxstUniversalHub.Tab3Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Tab3Button.TextSize = 14.000
+GhxstUniversalHub.Tab3Button.TextWrapped = true
+
+GhxstUniversalHub.UICorner_39.CornerRadius = UDim.new(0, 4)
+GhxstUniversalHub.UICorner_39.Parent = GhxstUniversalHub.Tab3Button
+
+GhxstUniversalHub.Tab4Button.Name = "Tab4Button"
+GhxstUniversalHub.Tab4Button.Parent = GhxstUniversalHub.TabButtonsFrame
+GhxstUniversalHub.Tab4Button.BackgroundColor3 = Color3.fromRGB(157, 0, 0)
+GhxstUniversalHub.Tab4Button.BackgroundTransparency = 1.000
+GhxstUniversalHub.Tab4Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab4Button.BorderSizePixel = 0
+GhxstUniversalHub.Tab4Button.Position = UDim2.new(-0.00679496303, 0, 0.165936977, 0)
+GhxstUniversalHub.Tab4Button.Size = UDim2.new(0, 133, 0, 29)
+GhxstUniversalHub.Tab4Button.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Tab4Button.Text = "R15"
+GhxstUniversalHub.Tab4Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Tab4Button.TextSize = 14.000
+GhxstUniversalHub.Tab4Button.TextWrapped = true
+
+GhxstUniversalHub.UICorner_40.CornerRadius = UDim.new(0, 4)
+GhxstUniversalHub.UICorner_40.Parent = GhxstUniversalHub.Tab4Button
+
+GhxstUniversalHub.Tab10Button.Name = "Tab10Button"
+GhxstUniversalHub.Tab10Button.Parent = GhxstUniversalHub.TabButtonsFrame
+GhxstUniversalHub.Tab10Button.BackgroundColor3 = Color3.fromRGB(157, 0, 0)
+GhxstUniversalHub.Tab10Button.BackgroundTransparency = 1.000
+GhxstUniversalHub.Tab10Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab10Button.BorderSizePixel = 0
+GhxstUniversalHub.Tab10Button.Position = UDim2.new(0.0140402196, 0, 0.876236022, 0)
+GhxstUniversalHub.Tab10Button.Size = UDim2.new(0, 133, 0, 29)
+GhxstUniversalHub.Tab10Button.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Tab10Button.Text = "Credits"
+GhxstUniversalHub.Tab10Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Tab10Button.TextSize = 14.000
+GhxstUniversalHub.Tab10Button.TextWrapped = true
+
+GhxstUniversalHub.UICorner_41.CornerRadius = UDim.new(0, 4)
+GhxstUniversalHub.UICorner_41.Parent = GhxstUniversalHub.Tab10Button
+
+GhxstUniversalHub.Tab1Button.Name = "Tab1Button"
+GhxstUniversalHub.Tab1Button.Parent = GhxstUniversalHub.TabButtonsFrame
+GhxstUniversalHub.Tab1Button.BackgroundColor3 = Color3.fromRGB(157, 0, 0)
+GhxstUniversalHub.Tab1Button.BackgroundTransparency = 1.000
+GhxstUniversalHub.Tab1Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab1Button.BorderSizePixel = 0
+GhxstUniversalHub.Tab1Button.Position = UDim2.new(0.0142700197, 0, 0.0210116655, 0)
+GhxstUniversalHub.Tab1Button.Size = UDim2.new(0, 133, 0, 29)
+GhxstUniversalHub.Tab1Button.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Tab1Button.Text = "Information"
+GhxstUniversalHub.Tab1Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Tab1Button.TextSize = 14.000
+GhxstUniversalHub.Tab1Button.TextWrapped = true
+
+GhxstUniversalHub.UICorner_42.CornerRadius = UDim.new(0, 4)
+GhxstUniversalHub.UICorner_42.Parent = GhxstUniversalHub.Tab1Button
+
+GhxstUniversalHub.Tab5Button.Name = "Tab5Button"
+GhxstUniversalHub.Tab5Button.Parent = GhxstUniversalHub.TabButtonsFrame
+GhxstUniversalHub.Tab5Button.BackgroundColor3 = Color3.fromRGB(157, 0, 0)
+GhxstUniversalHub.Tab5Button.BackgroundTransparency = 1.000
+GhxstUniversalHub.Tab5Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab5Button.BorderSizePixel = 0
+GhxstUniversalHub.Tab5Button.Position = UDim2.new(-0.00679496303, 0, 0.19879654, 0)
+GhxstUniversalHub.Tab5Button.Size = UDim2.new(0, 133, 0, 29)
+GhxstUniversalHub.Tab5Button.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Tab5Button.Text = "BladeBall"
+GhxstUniversalHub.Tab5Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Tab5Button.TextSize = 14.000
+GhxstUniversalHub.Tab5Button.TextWrapped = true
+
+GhxstUniversalHub.UICorner_43.CornerRadius = UDim.new(0, 4)
+GhxstUniversalHub.UICorner_43.Parent = GhxstUniversalHub.Tab5Button
+
+GhxstUniversalHub.Tab6Button.Name = "Tab6Button"
+GhxstUniversalHub.Tab6Button.Parent = GhxstUniversalHub.TabButtonsFrame
+GhxstUniversalHub.Tab6Button.BackgroundColor3 = Color3.fromRGB(157, 0, 0)
+GhxstUniversalHub.Tab6Button.BackgroundTransparency = 1.000
+GhxstUniversalHub.Tab6Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab6Button.BorderSizePixel = 0
+GhxstUniversalHub.Tab6Button.Position = UDim2.new(0.00801993441, 0, 0.239703223, 0)
+GhxstUniversalHub.Tab6Button.Size = UDim2.new(0, 133, 0, 29)
+GhxstUniversalHub.Tab6Button.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Tab6Button.Text = "Build A Boat"
+GhxstUniversalHub.Tab6Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Tab6Button.TextSize = 14.000
+GhxstUniversalHub.Tab6Button.TextWrapped = true
+
+GhxstUniversalHub.UICorner_44.CornerRadius = UDim.new(0, 4)
+GhxstUniversalHub.UICorner_44.Parent = GhxstUniversalHub.Tab6Button
+
+GhxstUniversalHub.Tab7Button.Name = "Tab7Button"
+GhxstUniversalHub.Tab7Button.Parent = GhxstUniversalHub.TabButtonsFrame
+GhxstUniversalHub.Tab7Button.BackgroundColor3 = Color3.fromRGB(157, 0, 0)
+GhxstUniversalHub.Tab7Button.BackgroundTransparency = 1.000
+GhxstUniversalHub.Tab7Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab7Button.BorderSizePixel = 0
+GhxstUniversalHub.Tab7Button.Position = UDim2.new(0.00801993441, 0, 0.278363019, 0)
+GhxstUniversalHub.Tab7Button.Size = UDim2.new(0, 133, 0, 29)
+GhxstUniversalHub.Tab7Button.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Tab7Button.Text = "Bedwars"
+GhxstUniversalHub.Tab7Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Tab7Button.TextSize = 14.000
+GhxstUniversalHub.Tab7Button.TextWrapped = true
+
+GhxstUniversalHub.UICorner_45.CornerRadius = UDim.new(0, 4)
+GhxstUniversalHub.UICorner_45.Parent = GhxstUniversalHub.Tab7Button
+
+GhxstUniversalHub.Tab8Button.Name = "Tab8Button"
+GhxstUniversalHub.Tab8Button.Parent = GhxstUniversalHub.TabButtonsFrame
+GhxstUniversalHub.Tab8Button.BackgroundColor3 = Color3.fromRGB(157, 0, 0)
+GhxstUniversalHub.Tab8Button.BackgroundTransparency = 1.000
+GhxstUniversalHub.Tab8Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab8Button.BorderSizePixel = 0
+GhxstUniversalHub.Tab8Button.Position = UDim2.new(0.00801993441, 0, 0.314445496, 0)
+GhxstUniversalHub.Tab8Button.Size = UDim2.new(0, 133, 0, 29)
+GhxstUniversalHub.Tab8Button.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Tab8Button.Text = "Da Hood"
+GhxstUniversalHub.Tab8Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Tab8Button.TextSize = 14.000
+GhxstUniversalHub.Tab8Button.TextWrapped = true
+
+GhxstUniversalHub.UICorner_46.CornerRadius = UDim.new(0, 4)
+GhxstUniversalHub.UICorner_46.Parent = GhxstUniversalHub.Tab8Button
+
+GhxstUniversalHub.Tab9Button.Name = "Tab9Button"
+GhxstUniversalHub.Tab9Button.Parent = GhxstUniversalHub.TabButtonsFrame
+GhxstUniversalHub.Tab9Button.BackgroundColor3 = Color3.fromRGB(157, 0, 0)
+GhxstUniversalHub.Tab9Button.BackgroundTransparency = 1.000
+GhxstUniversalHub.Tab9Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab9Button.BorderSizePixel = 0
+GhxstUniversalHub.Tab9Button.Position = UDim2.new(0.00801993441, 0, 0.353105277, 0)
+GhxstUniversalHub.Tab9Button.Size = UDim2.new(0, 133, 0, 29)
+GhxstUniversalHub.Tab9Button.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Tab9Button.Text = "Blox Fruits"
+GhxstUniversalHub.Tab9Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Tab9Button.TextSize = 14.000
+GhxstUniversalHub.Tab9Button.TextWrapped = true
+
+GhxstUniversalHub.UICorner_47.CornerRadius = UDim.new(0, 4)
+GhxstUniversalHub.UICorner_47.Parent = GhxstUniversalHub.Tab9Button
+
+GhxstUniversalHub.Title.Name = "Title"
+GhxstUniversalHub.Title.Parent = GhxstUniversalHub.MainFrame
+GhxstUniversalHub.Title.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GhxstUniversalHub.Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Title.BorderSizePixel = 0
+GhxstUniversalHub.Title.Position = UDim2.new(-0.00179913605, 0, 0.0365871452, 0)
+GhxstUniversalHub.Title.Size = UDim2.new(0, 684, 0, 36)
+
+GhxstUniversalHub.TextLabel_10.Parent = GhxstUniversalHub.Title
+GhxstUniversalHub.TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TextLabel_10.BackgroundTransparency = 1.000
+GhxstUniversalHub.TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.TextLabel_10.BorderSizePixel = 0
+GhxstUniversalHub.TextLabel_10.Position = UDim2.new(0.0131699415, 0, 0.111111112, 0)
+GhxstUniversalHub.TextLabel_10.Size = UDim2.new(0, 296, 0, 27)
+GhxstUniversalHub.TextLabel_10.Font = Enum.Font.ArialBold
+GhxstUniversalHub.TextLabel_10.Text = "Ghxst - Main"
+GhxstUniversalHub.TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TextLabel_10.TextScaled = true
+GhxstUniversalHub.TextLabel_10.TextSize = 14.000
+GhxstUniversalHub.TextLabel_10.TextWrapped = true
+GhxstUniversalHub.TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+GhxstUniversalHub.UICorner_48.CornerRadius = UDim.new(0, 7)
+GhxstUniversalHub.UICorner_48.Parent = GhxstUniversalHub.Title
+
+GhxstUniversalHub.Centerer.Name = "Centerer"
+GhxstUniversalHub.Centerer.Parent = GhxstUniversalHub.MainFrame
+GhxstUniversalHub.Centerer.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GhxstUniversalHub.Centerer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Centerer.BorderSizePixel = 0
+GhxstUniversalHub.Centerer.Position = UDim2.new(1.33133733, 0, 0.0549357012, 0)
+GhxstUniversalHub.Centerer.Size = UDim2.new(0, 16, 0, 407)
+GhxstUniversalHub.Centerer.ZIndex = 11
+
+GhxstUniversalHub.Centerer_2.Name = "Centerer"
+GhxstUniversalHub.Centerer_2.Parent = GhxstUniversalHub.Centerer
+GhxstUniversalHub.Centerer_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GhxstUniversalHub.Centerer_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Centerer_2.BorderSizePixel = 0
+GhxstUniversalHub.Centerer_2.Position = UDim2.new(-34.3276253, 0, 0.957808077, 0)
+GhxstUniversalHub.Centerer_2.Size = UDim2.new(0, 565, 0, 18)
+GhxstUniversalHub.Centerer_2.ZIndex = 11
+
+GhxstUniversalHub.Centerer_3.Name = "Centerer"
+GhxstUniversalHub.Centerer_3.Parent = GhxstUniversalHub.Centerer
+GhxstUniversalHub.Centerer_3.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+GhxstUniversalHub.Centerer_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Centerer_3.BorderSizePixel = 0
+GhxstUniversalHub.Centerer_3.Position = UDim2.new(-33.4313431, 0, 0.0651869327, 0)
+GhxstUniversalHub.Centerer_3.Size = UDim2.new(0, 1, 0, 382)
+GhxstUniversalHub.Centerer_3.ZIndex = 11
+
+GhxstUniversalHub.Centerer_4.Name = "Centerer"
+GhxstUniversalHub.Centerer_4.Parent = GhxstUniversalHub.Centerer
+GhxstUniversalHub.Centerer_4.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+GhxstUniversalHub.Centerer_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Centerer_4.BorderSizePixel = 0
+GhxstUniversalHub.Centerer_4.Position = UDim2.new(-41.7182846, 0, 0.0651870221, 0)
+GhxstUniversalHub.Centerer_4.Size = UDim2.new(0, 684, 0, 1)
+GhxstUniversalHub.Centerer_4.ZIndex = 11
+
+GhxstUniversalHub.Tab5Content.Name = "Tab5Content"
+GhxstUniversalHub.Tab5Content.Parent = GhxstUniversalHub.MainFrame
+GhxstUniversalHub.Tab5Content.AnchorPoint = Vector2.new(0.5, 0.5)
+GhxstUniversalHub.Tab5Content.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GhxstUniversalHub.Tab5Content.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab5Content.BorderSizePixel = 0
+GhxstUniversalHub.Tab5Content.Position = UDim2.new(0.81400001, 0, 0.546000004, 0)
+GhxstUniversalHub.Tab5Content.Size = UDim2.new(0, 531, 0, 380)
+GhxstUniversalHub.Tab5Content.Visible = false
+
+GhxstUniversalHub.Sec_5.Name = "Sec"
+GhxstUniversalHub.Sec_5.Parent = GhxstUniversalHub.Tab5Content
+GhxstUniversalHub.Sec_5.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+GhxstUniversalHub.Sec_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Sec_5.BorderSizePixel = 0
+GhxstUniversalHub.Sec_5.Position = UDim2.new(0.0810000002, 0, 0.0109999999, 0)
+GhxstUniversalHub.Sec_5.Size = UDim2.new(0, 429, 0, 21)
+GhxstUniversalHub.Sec_5.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Sec_5.Text = "Blade-Ball"
+GhxstUniversalHub.Sec_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Sec_5.TextScaled = true
+GhxstUniversalHub.Sec_5.TextSize = 14.000
+GhxstUniversalHub.Sec_5.TextWrapped = true
+
+GhxstUniversalHub.Buttons_4.Name = "Buttons"
+GhxstUniversalHub.Buttons_4.Parent = GhxstUniversalHub.Tab5Content
+
+GhxstUniversalHub.VisualBetaV35.Name = "Visual Beta V3.5"
+GhxstUniversalHub.VisualBetaV35.Parent = GhxstUniversalHub.Buttons_4
+GhxstUniversalHub.VisualBetaV35.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.VisualBetaV35.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.VisualBetaV35.BorderSizePixel = 0
+GhxstUniversalHub.VisualBetaV35.Position = UDim2.new(0.0459917709, 0, 0.350671619, 0)
+GhxstUniversalHub.VisualBetaV35.Size = UDim2.new(0, 465, 0, 50)
+GhxstUniversalHub.VisualBetaV35.Font = Enum.Font.SourceSans
+GhxstUniversalHub.VisualBetaV35.Text = "Visual Beta V3.5"
+GhxstUniversalHub.VisualBetaV35.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.VisualBetaV35.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_49.Parent = GhxstUniversalHub.VisualBetaV35
+
+GhxstUniversalHub.clickLeft_32.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_32.Parent = GhxstUniversalHub.VisualBetaV35
+GhxstUniversalHub.clickLeft_32.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_32.Position = UDim2.new(0.88360244, 0, 0.0961474627, 0)
+GhxstUniversalHub.clickLeft_32.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_32.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_32.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_32.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.FFJHubV3.Name = "FFJ Hub V3"
+GhxstUniversalHub.FFJHubV3.Parent = GhxstUniversalHub.Buttons_4
+GhxstUniversalHub.FFJHubV3.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.FFJHubV3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.FFJHubV3.BorderSizePixel = 0
+GhxstUniversalHub.FFJHubV3.Position = UDim2.new(0.046933163, 0, 0.161197856, 0)
+GhxstUniversalHub.FFJHubV3.Size = UDim2.new(0, 465, 0, 50)
+GhxstUniversalHub.FFJHubV3.Font = Enum.Font.SourceSans
+GhxstUniversalHub.FFJHubV3.Text = "FFJ - Hub - V3"
+GhxstUniversalHub.FFJHubV3.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.FFJHubV3.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_50.Parent = GhxstUniversalHub.FFJHubV3
+
+GhxstUniversalHub.clickLeft_33.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_33.Parent = GhxstUniversalHub.FFJHubV3
+GhxstUniversalHub.clickLeft_33.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_33.Position = UDim2.new(0.88360244, 0, 0.0961474627, 0)
+GhxstUniversalHub.clickLeft_33.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_33.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_33.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_33.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Tab6Content.Name = "Tab6Content"
+GhxstUniversalHub.Tab6Content.Parent = GhxstUniversalHub.MainFrame
+GhxstUniversalHub.Tab6Content.AnchorPoint = Vector2.new(0.5, 0.5)
+GhxstUniversalHub.Tab6Content.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GhxstUniversalHub.Tab6Content.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab6Content.BorderSizePixel = 0
+GhxstUniversalHub.Tab6Content.Position = UDim2.new(0.81400001, 0, 0.546000004, 0)
+GhxstUniversalHub.Tab6Content.Size = UDim2.new(0, 531, 0, 380)
+GhxstUniversalHub.Tab6Content.Visible = false
+
+GhxstUniversalHub.Sec_6.Name = "Sec"
+GhxstUniversalHub.Sec_6.Parent = GhxstUniversalHub.Tab6Content
+GhxstUniversalHub.Sec_6.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+GhxstUniversalHub.Sec_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Sec_6.BorderSizePixel = 0
+GhxstUniversalHub.Sec_6.Position = UDim2.new(0.0810000002, 0, 0.0109999999, 0)
+GhxstUniversalHub.Sec_6.Size = UDim2.new(0, 429, 0, 21)
+GhxstUniversalHub.Sec_6.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Sec_6.Text = "Build A Boat For Treasure [BABFT]"
+GhxstUniversalHub.Sec_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Sec_6.TextScaled = true
+GhxstUniversalHub.Sec_6.TextSize = 14.000
+GhxstUniversalHub.Sec_6.TextWrapped = true
+
+GhxstUniversalHub.Buttons_5.Name = "Buttons"
+GhxstUniversalHub.Buttons_5.Parent = GhxstUniversalHub.Tab6Content
+
+GhxstUniversalHub.Vynixius20.Name = "Vynixius 2.0"
+GhxstUniversalHub.Vynixius20.Parent = GhxstUniversalHub.Buttons_5
+GhxstUniversalHub.Vynixius20.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.Vynixius20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Vynixius20.BorderSizePixel = 0
+GhxstUniversalHub.Vynixius20.Position = UDim2.new(0.0469999984, 0, 0.160999998, 0)
+GhxstUniversalHub.Vynixius20.Size = UDim2.new(0, 465, 0, 50)
+GhxstUniversalHub.Vynixius20.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Vynixius20.Text = "Vynixius 2.0"
+GhxstUniversalHub.Vynixius20.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Vynixius20.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_51.Parent = GhxstUniversalHub.Vynixius20
+
+GhxstUniversalHub.clickLeft_34.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_34.Parent = GhxstUniversalHub.Vynixius20
+GhxstUniversalHub.clickLeft_34.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_34.Position = UDim2.new(0.88360244, 0, 0.0961474627, 0)
+GhxstUniversalHub.clickLeft_34.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_34.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_34.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_34.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.NooVstersHub.Name = "NooVster's Hub"
+GhxstUniversalHub.NooVstersHub.Parent = GhxstUniversalHub.Buttons_5
+GhxstUniversalHub.NooVstersHub.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.NooVstersHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.NooVstersHub.BorderSizePixel = 0
+GhxstUniversalHub.NooVstersHub.Position = UDim2.new(0.0469998308, 0, 0.350473672, 0)
+GhxstUniversalHub.NooVstersHub.Size = UDim2.new(0, 465, 0, 50)
+GhxstUniversalHub.NooVstersHub.Font = Enum.Font.SourceSans
+GhxstUniversalHub.NooVstersHub.Text = "NooVster's Hub"
+GhxstUniversalHub.NooVstersHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.NooVstersHub.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_52.Parent = GhxstUniversalHub.NooVstersHub
+
+GhxstUniversalHub.clickLeft_35.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_35.Parent = GhxstUniversalHub.NooVstersHub
+GhxstUniversalHub.clickLeft_35.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_35.Position = UDim2.new(0.88360244, 0, 0.0961474627, 0)
+GhxstUniversalHub.clickLeft_35.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_35.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_35.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_35.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.RollyHub.Name = "Rolly Hub"
+GhxstUniversalHub.RollyHub.Parent = GhxstUniversalHub.Buttons_5
+GhxstUniversalHub.RollyHub.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.RollyHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.RollyHub.BorderSizePixel = 0
+GhxstUniversalHub.RollyHub.Position = UDim2.new(0.0469998308, 0, 0.53994745, 0)
+GhxstUniversalHub.RollyHub.Size = UDim2.new(0, 465, 0, 50)
+GhxstUniversalHub.RollyHub.Font = Enum.Font.SourceSans
+GhxstUniversalHub.RollyHub.Text = "Rolly Hub"
+GhxstUniversalHub.RollyHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.RollyHub.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_53.Parent = GhxstUniversalHub.RollyHub
+
+GhxstUniversalHub.clickLeft_36.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_36.Parent = GhxstUniversalHub.RollyHub
+GhxstUniversalHub.clickLeft_36.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_36.Position = UDim2.new(0.88360244, 0, 0.0961474627, 0)
+GhxstUniversalHub.clickLeft_36.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_36.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_36.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_36.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Tab7Content.Name = "Tab7Content"
+GhxstUniversalHub.Tab7Content.Parent = GhxstUniversalHub.MainFrame
+GhxstUniversalHub.Tab7Content.AnchorPoint = Vector2.new(0.5, 0.5)
+GhxstUniversalHub.Tab7Content.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GhxstUniversalHub.Tab7Content.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab7Content.BorderSizePixel = 0
+GhxstUniversalHub.Tab7Content.Position = UDim2.new(0.81400001, 0, 0.546000004, 0)
+GhxstUniversalHub.Tab7Content.Size = UDim2.new(0, 531, 0, 380)
+GhxstUniversalHub.Tab7Content.Visible = false
+
+GhxstUniversalHub.Sec_7.Name = "Sec"
+GhxstUniversalHub.Sec_7.Parent = GhxstUniversalHub.Tab7Content
+GhxstUniversalHub.Sec_7.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+GhxstUniversalHub.Sec_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Sec_7.BorderSizePixel = 0
+GhxstUniversalHub.Sec_7.Position = UDim2.new(0.0810000002, 0, 0.0109999999, 0)
+GhxstUniversalHub.Sec_7.Size = UDim2.new(0, 429, 0, 21)
+GhxstUniversalHub.Sec_7.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Sec_7.Text = "Build A Boat For Treasure [BABFT]"
+GhxstUniversalHub.Sec_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Sec_7.TextScaled = true
+GhxstUniversalHub.Sec_7.TextSize = 14.000
+GhxstUniversalHub.Sec_7.TextWrapped = true
+
+GhxstUniversalHub.Buttons_6.Name = "Buttons"
+GhxstUniversalHub.Buttons_6.Parent = GhxstUniversalHub.Tab7Content
+
+GhxstUniversalHub.VapeV4.Name = "Vape V4"
+GhxstUniversalHub.VapeV4.Parent = GhxstUniversalHub.Buttons_6
+GhxstUniversalHub.VapeV4.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.VapeV4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.VapeV4.BorderSizePixel = 0
+GhxstUniversalHub.VapeV4.Position = UDim2.new(0.0469999984, 0, 0.160999998, 0)
+GhxstUniversalHub.VapeV4.Size = UDim2.new(0, 465, 0, 50)
+GhxstUniversalHub.VapeV4.Font = Enum.Font.SourceSans
+GhxstUniversalHub.VapeV4.Text = "Vape V4"
+GhxstUniversalHub.VapeV4.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.VapeV4.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_54.Parent = GhxstUniversalHub.VapeV4
+
+GhxstUniversalHub.clickLeft_37.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_37.Parent = GhxstUniversalHub.VapeV4
+GhxstUniversalHub.clickLeft_37.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_37.Position = UDim2.new(0.88360244, 0, 0.0961474627, 0)
+GhxstUniversalHub.clickLeft_37.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_37.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_37.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_37.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.RavenB1.Name = "Raven B1"
+GhxstUniversalHub.RavenB1.Parent = GhxstUniversalHub.Buttons_6
+GhxstUniversalHub.RavenB1.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.RavenB1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.RavenB1.BorderSizePixel = 0
+GhxstUniversalHub.RavenB1.Position = UDim2.new(0.0469998308, 0, 0.350473672, 0)
+GhxstUniversalHub.RavenB1.Size = UDim2.new(0, 465, 0, 50)
+GhxstUniversalHub.RavenB1.Font = Enum.Font.SourceSans
+GhxstUniversalHub.RavenB1.Text = "Raven B1"
+GhxstUniversalHub.RavenB1.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.RavenB1.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_55.Parent = GhxstUniversalHub.RavenB1
+
+GhxstUniversalHub.clickLeft_38.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_38.Parent = GhxstUniversalHub.RavenB1
+GhxstUniversalHub.clickLeft_38.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_38.Position = UDim2.new(0.88360244, 0, 0.0961474627, 0)
+GhxstUniversalHub.clickLeft_38.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_38.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_38.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_38.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Tab8Content.Name = "Tab8Content"
+GhxstUniversalHub.Tab8Content.Parent = GhxstUniversalHub.MainFrame
+GhxstUniversalHub.Tab8Content.AnchorPoint = Vector2.new(0.5, 0.5)
+GhxstUniversalHub.Tab8Content.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GhxstUniversalHub.Tab8Content.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab8Content.BorderSizePixel = 0
+GhxstUniversalHub.Tab8Content.Position = UDim2.new(0.81400001, 0, 0.546000004, 0)
+GhxstUniversalHub.Tab8Content.Size = UDim2.new(0, 531, 0, 380)
+GhxstUniversalHub.Tab8Content.Visible = false
+
+GhxstUniversalHub.Sec_8.Name = "Sec"
+GhxstUniversalHub.Sec_8.Parent = GhxstUniversalHub.Tab8Content
+GhxstUniversalHub.Sec_8.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+GhxstUniversalHub.Sec_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Sec_8.BorderSizePixel = 0
+GhxstUniversalHub.Sec_8.Position = UDim2.new(0.0810000002, 0, 0.0109999999, 0)
+GhxstUniversalHub.Sec_8.Size = UDim2.new(0, 429, 0, 21)
+GhxstUniversalHub.Sec_8.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Sec_8.Text = "Da Hood"
+GhxstUniversalHub.Sec_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Sec_8.TextScaled = true
+GhxstUniversalHub.Sec_8.TextSize = 14.000
+GhxstUniversalHub.Sec_8.TextWrapped = true
+
+GhxstUniversalHub.Buttons_7.Name = "Buttons"
+GhxstUniversalHub.Buttons_7.Parent = GhxstUniversalHub.Tab8Content
+
+GhxstUniversalHub.VapeV4_2.Name = "Vape V4"
+GhxstUniversalHub.VapeV4_2.Parent = GhxstUniversalHub.Buttons_7
+GhxstUniversalHub.VapeV4_2.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.VapeV4_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.VapeV4_2.BorderSizePixel = 0
+GhxstUniversalHub.VapeV4_2.Position = UDim2.new(0.0469999984, 0, 0.160999998, 0)
+GhxstUniversalHub.VapeV4_2.Size = UDim2.new(0, 465, 0, 50)
+GhxstUniversalHub.VapeV4_2.Font = Enum.Font.SourceSans
+GhxstUniversalHub.VapeV4_2.Text = "RayX"
+GhxstUniversalHub.VapeV4_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.VapeV4_2.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_56.Parent = GhxstUniversalHub.VapeV4_2
+
+GhxstUniversalHub.clickLeft_39.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_39.Parent = GhxstUniversalHub.VapeV4_2
+GhxstUniversalHub.clickLeft_39.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_39.Position = UDim2.new(0.88360244, 0, 0.0961474627, 0)
+GhxstUniversalHub.clickLeft_39.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_39.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_39.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_39.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.MashHub.Name = "Mash Hub"
+GhxstUniversalHub.MashHub.Parent = GhxstUniversalHub.Buttons_7
+GhxstUniversalHub.MashHub.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.MashHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.MashHub.BorderSizePixel = 0
+GhxstUniversalHub.MashHub.Position = UDim2.new(0.0469998308, 0, 0.350473672, 0)
+GhxstUniversalHub.MashHub.Size = UDim2.new(0, 465, 0, 50)
+GhxstUniversalHub.MashHub.Font = Enum.Font.SourceSans
+GhxstUniversalHub.MashHub.Text = "Mash Hub"
+GhxstUniversalHub.MashHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.MashHub.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_57.Parent = GhxstUniversalHub.MashHub
+
+GhxstUniversalHub.clickLeft_40.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_40.Parent = GhxstUniversalHub.MashHub
+GhxstUniversalHub.clickLeft_40.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_40.Position = UDim2.new(0.88360244, 0, 0.0961474627, 0)
+GhxstUniversalHub.clickLeft_40.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_40.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_40.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_40.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.TBO.Name = "TBO"
+GhxstUniversalHub.TBO.Parent = GhxstUniversalHub.Buttons_7
+GhxstUniversalHub.TBO.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.TBO.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.TBO.BorderSizePixel = 0
+GhxstUniversalHub.TBO.Position = UDim2.new(0.0469998308, 0, 0.55573684, 0)
+GhxstUniversalHub.TBO.Size = UDim2.new(0, 465, 0, 50)
+GhxstUniversalHub.TBO.Font = Enum.Font.SourceSans
+GhxstUniversalHub.TBO.Text = "TBO Hub (W)"
+GhxstUniversalHub.TBO.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.TBO.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_58.Parent = GhxstUniversalHub.TBO
+
+GhxstUniversalHub.clickLeft_41.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_41.Parent = GhxstUniversalHub.TBO
+GhxstUniversalHub.clickLeft_41.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_41.Position = UDim2.new(0.88360244, 0, 0.0961474627, 0)
+GhxstUniversalHub.clickLeft_41.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_41.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_41.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_41.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.Tab9Content.Name = "Tab9Content"
+GhxstUniversalHub.Tab9Content.Parent = GhxstUniversalHub.MainFrame
+GhxstUniversalHub.Tab9Content.AnchorPoint = Vector2.new(0.5, 0.5)
+GhxstUniversalHub.Tab9Content.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GhxstUniversalHub.Tab9Content.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Tab9Content.BorderSizePixel = 0
+GhxstUniversalHub.Tab9Content.Position = UDim2.new(0.81400001, 0, 0.546000004, 0)
+GhxstUniversalHub.Tab9Content.Size = UDim2.new(0, 531, 0, 380)
+GhxstUniversalHub.Tab9Content.Visible = false
+
+GhxstUniversalHub.Sec_9.Name = "Sec"
+GhxstUniversalHub.Sec_9.Parent = GhxstUniversalHub.Tab9Content
+GhxstUniversalHub.Sec_9.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+GhxstUniversalHub.Sec_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.Sec_9.BorderSizePixel = 0
+GhxstUniversalHub.Sec_9.Position = UDim2.new(0.0810000002, 0, 0.0109999999, 0)
+GhxstUniversalHub.Sec_9.Size = UDim2.new(0, 429, 0, 21)
+GhxstUniversalHub.Sec_9.Font = Enum.Font.SourceSans
+GhxstUniversalHub.Sec_9.Text = "Blox Fruits"
+GhxstUniversalHub.Sec_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.Sec_9.TextScaled = true
+GhxstUniversalHub.Sec_9.TextSize = 14.000
+GhxstUniversalHub.Sec_9.TextWrapped = true
+
+GhxstUniversalHub.Buttons_8.Name = "Buttons"
+GhxstUniversalHub.Buttons_8.Parent = GhxstUniversalHub.Tab9Content
+
+GhxstUniversalHub.MinGamingHub.Name = "Min Gaming Hub"
+GhxstUniversalHub.MinGamingHub.Parent = GhxstUniversalHub.Buttons_8
+GhxstUniversalHub.MinGamingHub.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.MinGamingHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.MinGamingHub.BorderSizePixel = 0
+GhxstUniversalHub.MinGamingHub.Position = UDim2.new(0.0469999984, 0, 0.160999998, 0)
+GhxstUniversalHub.MinGamingHub.Size = UDim2.new(0, 465, 0, 50)
+GhxstUniversalHub.MinGamingHub.Font = Enum.Font.SourceSans
+GhxstUniversalHub.MinGamingHub.Text = "Min Gaming Hub"
+GhxstUniversalHub.MinGamingHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.MinGamingHub.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_59.Parent = GhxstUniversalHub.MinGamingHub
+
+GhxstUniversalHub.clickLeft_42.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_42.Parent = GhxstUniversalHub.MinGamingHub
+GhxstUniversalHub.clickLeft_42.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_42.Position = UDim2.new(0.88360244, 0, 0.0961474627, 0)
+GhxstUniversalHub.clickLeft_42.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_42.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_42.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_42.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.SpeedHubX.Name = "Speed Hub X"
+GhxstUniversalHub.SpeedHubX.Parent = GhxstUniversalHub.Buttons_8
+GhxstUniversalHub.SpeedHubX.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.SpeedHubX.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.SpeedHubX.BorderSizePixel = 0
+GhxstUniversalHub.SpeedHubX.Position = UDim2.new(0.0469998308, 0, 0.350473672, 0)
+GhxstUniversalHub.SpeedHubX.Size = UDim2.new(0, 465, 0, 50)
+GhxstUniversalHub.SpeedHubX.Font = Enum.Font.SourceSans
+GhxstUniversalHub.SpeedHubX.Text = "Speed Hub X"
+GhxstUniversalHub.SpeedHubX.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.SpeedHubX.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_60.Parent = GhxstUniversalHub.SpeedHubX
+
+GhxstUniversalHub.clickLeft_43.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_43.Parent = GhxstUniversalHub.SpeedHubX
+GhxstUniversalHub.clickLeft_43.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_43.Position = UDim2.new(0.88360244, 0, 0.0961474627, 0)
+GhxstUniversalHub.clickLeft_43.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_43.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_43.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_43.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.MatsuneHubV1.Name = "Matsune Hub V1"
+GhxstUniversalHub.MatsuneHubV1.Parent = GhxstUniversalHub.Buttons_8
+GhxstUniversalHub.MatsuneHubV1.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.MatsuneHubV1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.MatsuneHubV1.BorderSizePixel = 0
+GhxstUniversalHub.MatsuneHubV1.Position = UDim2.new(0.0469998308, 0, 0.55573684, 0)
+GhxstUniversalHub.MatsuneHubV1.Size = UDim2.new(0, 465, 0, 50)
+GhxstUniversalHub.MatsuneHubV1.Font = Enum.Font.SourceSans
+GhxstUniversalHub.MatsuneHubV1.Text = "Matsune Hub V1"
+GhxstUniversalHub.MatsuneHubV1.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.MatsuneHubV1.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_61.Parent = GhxstUniversalHub.MatsuneHubV1
+
+GhxstUniversalHub.clickLeft_44.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_44.Parent = GhxstUniversalHub.MatsuneHubV1
+GhxstUniversalHub.clickLeft_44.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_44.Position = UDim2.new(0.88360244, 0, 0.0961474627, 0)
+GhxstUniversalHub.clickLeft_44.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_44.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_44.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_44.ImageRectSize = Vector2.new(108, 108)
+
+GhxstUniversalHub.RedzHub.Name = "Redz Hub"
+GhxstUniversalHub.RedzHub.Parent = GhxstUniversalHub.Buttons_8
+GhxstUniversalHub.RedzHub.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+GhxstUniversalHub.RedzHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GhxstUniversalHub.RedzHub.BorderSizePixel = 0
+GhxstUniversalHub.RedzHub.Position = UDim2.new(0.0469998308, 0, 0.750473678, 0)
+GhxstUniversalHub.RedzHub.Size = UDim2.new(0, 465, 0, 50)
+GhxstUniversalHub.RedzHub.Font = Enum.Font.SourceSans
+GhxstUniversalHub.RedzHub.Text = "Redz Hub"
+GhxstUniversalHub.RedzHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+GhxstUniversalHub.RedzHub.TextSize = 14.000
+
+GhxstUniversalHub.UICorner_62.Parent = GhxstUniversalHub.RedzHub
+
+GhxstUniversalHub.clickLeft_45.Name = "clickLeft"
+GhxstUniversalHub.clickLeft_45.Parent = GhxstUniversalHub.RedzHub
+GhxstUniversalHub.clickLeft_45.BackgroundTransparency = 1.000
+GhxstUniversalHub.clickLeft_45.Position = UDim2.new(0.88360244, 0, 0.0961474627, 0)
+GhxstUniversalHub.clickLeft_45.Size = UDim2.new(0, 45, 0, 45)
+GhxstUniversalHub.clickLeft_45.Image = "rbxassetid://14976970435"
+GhxstUniversalHub.clickLeft_45.ImageRectOffset = Vector2.new(512, 908)
+GhxstUniversalHub.clickLeft_45.ImageRectSize = Vector2.new(108, 108)
+
+-- Scripts:
+
+local function QNNQNPH_fake_script() -- GhxstUniversalHub.ToggleButton.LocalScript 
+	local script = Instance.new('LocalScript', GhxstUniversalHub.ToggleButton)
+
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	
+	local toggleButton = script.Parent 
+	local mainScreenGui = player:WaitForChild("PlayerGui"):WaitForChild("Ghxst Universal Hub") 
+	
+	local function toggleScreenGui()
+		mainScreenGui.Enabled = not mainScreenGui.Enabled
+	end
+	
+	toggleButton.MouseButton1Click:Connect(toggleScreenGui)
+	
+end
+coroutine.wrap(QNNQNPH_fake_script)()
+local function JGVFTU_fake_script() -- GhxstUniversalHub.MainFrame.Drag 
+	local script = Instance.new('LocalScript', GhxstUniversalHub.MainFrame)
+
+	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local frame = script.Parent
+	
+	local dragging = false
+	local dragInput, mousePos, framePos
+	local lastMousePos, lastGoalPos
+	local dragSpeed = 0.10  -- smoothness
+	
+	local function lerp(a, b, m)
+		return a + (b - a) * m
+	end
+	
+	local function update(input)
+		local delta = input.Position - mousePos
+		local newPos = UDim2.new(
+			framePos.X.Scale,
+			framePos.X.Offset + delta.X,
+			framePos.Y.Scale,
+			framePos.Y.Offset + delta.Y
+		)
+		lastGoalPos = newPos
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			mousePos = input.Position
+			framePos = frame.Position
+			lastMousePos = mousePos
+			lastGoalPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if dragging and input == dragInput then
+			update(input)
+		end
+	end)
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if dragging then
+			frame.Position = UDim2.new(
+				lerp(frame.Position.X.Scale, lastGoalPos.X.Scale, dragSpeed),
+				lerp(frame.Position.X.Offset, lastGoalPos.X.Offset, dragSpeed),
+				lerp(frame.Position.Y.Scale, lastGoalPos.Y.Scale, dragSpeed),
+				lerp(frame.Position.Y.Offset, lastGoalPos.Y.Offset, dragSpeed)
+			)
+		end
+	end)
+	
+end
+coroutine.wrap(JGVFTU_fake_script)()
+local function YZOK_fake_script() -- GhxstUniversalHub.MainFrame.Tabs System Handler 
+	local script = Instance.new('LocalScript', GhxstUniversalHub.MainFrame)
+
+	local screenGui = script.Parent.Parent
+	local mainFrame = script.Parent
+	local tabButtonsFrame = mainFrame:WaitForChild("TabButtonsFrame")
+	local defaultButtonTextColor = Color3.fromRGB(192, 192, 192)
+	local selectedButtonTextColor = Color3.fromRGB(255, 255, 255)
+	
+	local function showTab(tabNumber)
+		for i = 1, 50 do
+			local tabContent = mainFrame:FindFirstChild("Tab" .. i .. "Content")
+			local tabButton = tabButtonsFrame:FindFirstChild("Tab" .. i .. "Button")
+			if tabContent then
+				tabContent.Visible = false
+			end
+			if tabButton then
+				tabButton.TextColor3 = defaultButtonTextColor
+			end
+		end
+	
+		local selectedTabContent = mainFrame:FindFirstChild("Tab" .. tabNumber .. "Content")
+		local selectedTabButton = tabButtonsFrame:FindFirstChild("Tab" .. tabNumber .. "Button")
+		if selectedTabContent then
+			selectedTabContent.Visible = true
+		end
+		if selectedTabButton then
+			selectedTabButton.TextColor3 = selectedButtonTextColor
+		end
+	end
+	
+	for i = 1, 50 do
+		local tabButton = tabButtonsFrame:FindFirstChild("Tab" .. i .. "Button")
+		if tabButton then
+			tabButton.MouseButton1Click:Connect(function()
+				showTab(i)
+			end)
+		end
+	end
+	
+	showTab(1)
+	
+end
+coroutine.wrap(YZOK_fake_script)()
+local function NGFRHK_fake_script() -- GhxstUniversalHub.GhxstUniversalHub.Keybind System 
+	local script = Instance.new('LocalScript', GhxstUniversalHub.GhxstUniversalHub)
+
+	
+	local screenGui = script.Parent
+	local function toggleGuiVisibility()
+		screenGui.Enabled = not screenGui.Enabled
+	end
+	local function onKeyPress(input)
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == Enum.KeyCode.LeftControl or input.KeyCode == Enum.KeyCode.RightControl then
+				toggleGuiVisibility()
+			end
+		end
+	end
+	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
+	
+	
+	-- Yo, Nailed it
+	
+end
+coroutine.wrap(NGFRHK_fake_script)()
